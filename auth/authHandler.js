@@ -22,7 +22,7 @@ async function promptUserNumber() {
 
         });
 
-        rl.question('📲 Enter your WhatsApp number (with country code, e.g., 237xxxx): ', (number) => {
+        rl.question('', (number) => {
 
             rl.close();
 
@@ -51,6 +51,8 @@ async function connectToWhatsApp(handleMessage) {
 
                ✅ HELLO WORLD FROM DEV SENKU
     `);
+
+    console.log("📲 Enter your WhatsApp number (with country code, e.g., 237xxxx): ");
 
     const primary = configManager.config?.users["root"]?.primary;
 
