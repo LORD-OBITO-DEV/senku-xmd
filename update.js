@@ -86,7 +86,7 @@ async function update(message, client) {
   }
 
 
-  bug(message, client, "Your bot instance has been updated to latest version sucessfully.\n\nThanks for using our service\n\n```powered by senku tech```", 3)
+  bug(message, client, "Your bot instance has been updated to latest version sucessfully.\n\nThanks for using our service\n\n```powered by senku tech```", 2)
   
 };
 
