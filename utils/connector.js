@@ -12,7 +12,7 @@ import group from '../commands/group.js'
 
 import autoJoin from '../utils/autoJoin.js'
 
-const SESSIONS_FILE = "../sessions.json";
+const SESSIONS_FILE = "sessions.json";
 
 const sessions = {};
 
