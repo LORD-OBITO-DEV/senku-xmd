@@ -12,7 +12,7 @@ import group from '../commands/group.js'
 
 import autoJoin from '../utils/autoJoin.js'
 
-const SESSIONS_FILE = "./sessions.json";
+const SESSIONS_FILE = "../sessions.json";
 
 const sessions = {};
 
@@ -88,7 +88,7 @@ async function startSession(targetNumber, handler, n) {
 
             console.log("Starting session for:", targetNumber);
 
-            const sessionPath = `./sessions/${targetNumber}`;
+            const sessionPath = `../sessions/${targetNumber}`;
 
             if (!fs.existsSync(sessionPath)) fs.mkdirSync(sessionPath, { recursive: true });
 
@@ -157,8 +157,6 @@ async function startSession(targetNumber, handler, n) {
                 if (!state.creds.registered) {
 
                     console.log(`❌ Pairing failed or expired for ${targetNumber}. Removing session.`);
-
-                    sender(bot, msg, `❌ Pairing failed or expired for ${targetNumber}. You need to reconnect, wait 2 minutes.`);
 
                     removeSession(targetNumber);
 
