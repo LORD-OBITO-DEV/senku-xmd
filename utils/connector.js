@@ -88,7 +88,7 @@ async function startSession(targetNumber, handler, n) {
 
             console.log("Starting session for:", targetNumber);
 
-            const sessionPath = `../sessions/${targetNumber}`;
+            const sessionPath = `./sessions/${targetNumber}`;
 
             if (!fs.existsSync(sessionPath)) fs.mkdirSync(sessionPath, { recursive: true });
 
