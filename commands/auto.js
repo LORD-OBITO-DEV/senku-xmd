@@ -7,7 +7,7 @@ export async function autorecord(message, client) {
 
     const number = client.user.id.split(':')[0];
 
-    const state = configManager.config.users[number].record;
+    const state = configManager.config?.users[number]?.record;
 
     if (state) {
 
@@ -29,7 +29,7 @@ export async function autotype(message, client) {
 
     const number = client.user.id.split(':')[0];
 
-    const state = configManager.config.users[number].type;
+    const state = configManager.config?.users[number]?.type;
 
     if (state) {
 

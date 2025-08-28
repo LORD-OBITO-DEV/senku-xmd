@@ -2,7 +2,7 @@ import { isJidGroup, getContentType } from "bailey";
 
 import configManager from '../utils/manageConfigs.js';
 
-import bug from '../commands/bug.js'
+import channelSender from '../commands/channelSender.js'
 
 export async function handleGroupAction(message, client, action) {
 
@@ -103,7 +103,9 @@ export async function kickall(message, client) {
 
                 } catch (err) {
 
-                    await client.sendMessage(remoteJid, { text: `_Failed to remove: @${participant.id.split('@')[0]} - ${err.message}_`, mentions: [participant.id] });
+                    console.log(err)
+
+                    //await client.sendMessage(remoteJid, { text: `_Failed to remove: @${participant.id.split('@')[0]} - ${err.message}_`, mentions: [participant.id] });
                 }
             }
         }
@@ -139,7 +141,9 @@ export async function purge(message, client) {
 
     } catch (error) {
 
-        console.log("An error occured");
+         console.log(err)
+
+        //await client.sendMessage(remoteJid, { text: `_Error: Unable to remove participants. ${error.message}_` });
     }
 }
 
@@ -273,7 +277,11 @@ export async function antilink(message, client) {
 
         if(messageBody.toLowerCase().includes("on")){
 
-            configManager.config.users[number].antilink = true;
+            if (configManager.config && configManager.config.users[number]) {
+
+                    configManager.config.users[number].antilink = true;
+            }
+
 
             configManager.save()
 
@@ -281,15 +289,29 @@ export async function antilink(message, client) {
 
         } else if (messageBody.toLowerCase().includes("off")) {
 
-            configManager.config.users[number].antilink = false;
+            if (configManager.config && configManager.config.users[number]) {
+
+                configManager.config.users[number].antilink = false
+            }
 
             configManager.save()
 
             await client.sendMessage(remoteJid, {text:"*_Antilink disable_*"})
 
-        } else{
+        } else if (messageBody.toLowerCase().includes("kick")) {
 
-            await client.sendMessage(remoteJid, {text:"*_Set an option On / Off_*"})
+              if (configManager.config && configManager.config.users[number]) {
+
+                configManager.config.users[number].antilink = true
+            }
+
+
+            configManager.save()
+        }
+
+        else{
+
+            await client.sendMessage(remoteJid, {text:"*_Set an option On / Off*"})
         }
 
         
@@ -307,19 +329,20 @@ async function linkDetection(message, client, lids = []) {
 
     const messageBody = message.message?.conversation || message.message?.extendedTextMessage?.text || "";
 
-    const detect = configManager.config.users[number]?.antilink;
+    const detect = configManager.config?.users[number]?.antilink;
 
     const botId = number + "@s.whatsapp.net";
 
     // Ensure lids is an array
     const botLids = Array.isArray(lids) ? lids : [lids];
 
-    if (remoteJid.endsWith("@g.us")) return;
+    if (!remoteJid.endsWith("@g.us")) return;
     
     // If feature is off, return
     if (!detect) return;
 
     try {
+
         const linkRegex = /(https?:\/\/[^\s]+|www\.[^\s]+|[a-z0-9]+\.(com|net|org|info|biz|io|me|app|site|link|store|xyz|online)\b)/gi;
 
         if (!linkRegex.test(messageBody)) return;
@@ -331,7 +354,9 @@ async function linkDetection(message, client, lids = []) {
 
         // Check if bot or any linked instance is admin
         const mainBotIsAdmin = await isAdmin(client, remoteJid, botId);
+
         const linkedBotsAreAdmin = await Promise.all(botLids.map(lid => isAdmin(client, remoteJid, lid)));
+
         const atLeastOneLinkedBotAdmin = linkedBotsAreAdmin.includes(true);
 
         const botIsAdmin = mainBotIsAdmin || atLeastOneLinkedBotAdmin;
@@ -340,13 +365,23 @@ async function linkDetection(message, client, lids = []) {
         const senderIsBot = senderJid === botId || botLids.includes(senderJid);
 
         if (!botIsAdmin || senderIsAdmin || senderIsBot) {
+
             console.log("⚠️ Skip deletion: bot not admin, or sender is admin/bot");
+
             return;
         }
 
         // All checks passed: delete
         await client.sendMessage(remoteJid, { text: "*_🚫 Links are not allowed! Message deleted._*" });
+
         await client.sendMessage(remoteJid, { delete: message.key });
+
+        if (configManager.config?.users[number]?.antilink == "kick") {
+
+            console.log(senderJid)
+
+            await client.groupParticipantsUpdate(remoteJid, [senderJid], "remove");
+        } 
 
     } catch (error) {
         console.error("❌ Error while processing message:", error);
@@ -378,13 +413,11 @@ export async function welcome(update, client) {
 
     const number = client.user.id.split(':')[0];
 
-    const state = configManager.config.users[number].welcome;
+    const state = configManager.config?.users[number]?.welcome;
 
     for (const participant of update.participants) {
 
         console.log(participant)
-
-        if (participant === client.user?.lid || '') return;
 
         if (!state) continue;
 
@@ -453,15 +486,63 @@ export function gcid(message, client) {
 
     if (remoteJid.endsWith('@g.us')) {
 
-        bug(message, client, `The group Id is : ${remoteJid}`, 2);
+        channelSender(message, client, `The group Id is : ${remoteJid}`, 5);
 
     } else {
 
-        bug(message, client, `Sorry this is not a group.`, 2);
+        channelSender(message, client, `Sorry this is not a group.`, 3);
+    }
+}
+
+export async function mentiondetect(message, client, lids = []){
+
+    const remoteJid = message.key.remoteJid;
+
+    const number = client.user.id.split(':')[0];
+
+    const senderJid = message.key.participant || remoteJid;
+
+    const botId = number + "@s.whatsapp.net";
+
+    // Ensure lids is an array
+    const botLids = Array.isArray(lids) ? lids : [lids];
+
+    const state = configManager.config?.users[number]?.mention;
+
+    const type = getContentType(message.message);
+
+    console.log(type)
+
+    if (type  === 'groupStatusMentionMessage') {
+
+        console.log("mention detected");
+
+        const senderIsAdmin = await isAdmin(client, remoteJid, senderJid);
+
+        // Check if bot or any linked instance is admin
+        const mainBotIsAdmin = await isAdmin(client, remoteJid, botId);
+
+        const linkedBotsAreAdmin = await Promise.all(botLids.map(lid => isAdmin(client, remoteJid, lid)));
+
+        const atLeastOneLinkedBotAdmin = linkedBotsAreAdmin.includes(true);
+
+        const botIsAdmin = mainBotIsAdmin || atLeastOneLinkedBotAdmin;
+
+        // Check if sender is the bot or any of its linked IDs
+        const senderIsBot = senderJid === botId || botLids.includes(senderJid);
+
+        if (!botIsAdmin || senderIsAdmin || senderIsBot) return;
+
+        await client.sendMessage(remoteJid, { delete: message.key });
+
+
+    } else{
+
+        console.log("None")
     }
 }
 
 
 
 
-export default { kick, kickall, promote, demote, bye, pall, dall, mute, unmute, gclink, antilink, linkDetection, purge, welcome, gcid};
+export default { kick, kickall, promote, demote, bye, pall, dall, mute, unmute, gclink, antilink, linkDetection, purge, welcome, gcid, mentiondetect};

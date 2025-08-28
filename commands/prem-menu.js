@@ -1,1 +1,64 @@
-(function(_0x545b2d,_0x3baa30){const _0x4a0eef=_0xc667,_0x444674=_0x545b2d();while(!![]){try{const _0x1d5691=-parseInt(_0x4a0eef(0xde))/0x1+-parseInt(_0x4a0eef(0xe8))/0x2*(-parseInt(_0x4a0eef(0xd2))/0x3)+-parseInt(_0x4a0eef(0xec))/0x4*(parseInt(_0x4a0eef(0xe1))/0x5)+parseInt(_0x4a0eef(0xe0))/0x6*(parseInt(_0x4a0eef(0xdf))/0x7)+parseInt(_0x4a0eef(0xd9))/0x8+parseInt(_0x4a0eef(0xd5))/0x9+-parseInt(_0x4a0eef(0xdc))/0xa*(-parseInt(_0x4a0eef(0xd6))/0xb);if(_0x1d5691===_0x3baa30)break;else _0x444674['push'](_0x444674['shift']());}catch(_0x31dbbf){_0x444674['push'](_0x444674['shift']());}}}(_0x58de,0x51e7f));import _0x23bb2f from'../utils/manageConfigs.js';export async function prem(_0x39312d,_0x4e5bbb){const _0x2c38a9=_0xc667,_0x31da0b=_0x39312d[_0x2c38a9(0xe7)][_0x2c38a9(0xdd)],_0x31f8fa=new Date(),_0x1d1984=[_0x2c38a9(0xe3),_0x2c38a9(0xd7),_0x2c38a9(0xd4),_0x2c38a9(0xcd),_0x2c38a9(0xe5),_0x2c38a9(0xe4),_0x2c38a9(0xda)],_0x29e2fc=_0x1d1984[_0x31f8fa['getDay']()],_0x5c89a2=_0x31f8fa[_0x2c38a9(0xd0)](),_0x18310d=_0x31f8fa[_0x2c38a9(0xce)]()+0x1,_0x1f10be=_0x31f8fa[_0x2c38a9(0xcb)](),_0x56c1a1=_0x2c38a9(0xcc),_0x3bc34f=_0x4e5bbb[_0x2c38a9(0xe6)]['id'][_0x2c38a9(0xe9)](':')[0x0],_0x4a6ef0=_0x39312d[_0x2c38a9(0xeb)]||_0x2c38a9(0xea),_0x9e02e=_0x2c38a9(0xd1)+_0x23bb2f[_0x2c38a9(0xcf)][_0x2c38a9(0xd8)][_0x3bc34f]['prefix']+_0x2c38a9(0xe2)+_0x4a6ef0+'\x20\x20\x0a│\x20Day\x20:\x20'+_0x29e2fc+'\x0a│\x20Date\x20:\x20'+_0x5c89a2+'/'+_0x18310d+'/'+_0x1f10be+'\x20\x0a│\x20Version\x20:\x205.0.0\x0a│\x20Plugins\x20:\x2060\x0a│\x20Type\x20:\x20X-MD\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰─────────────────╯\x0a\x0a╭─[\x20✧\x20PREMIUM\x20CMD\x20✧\x20]──╮\x0a│\x20\x20\x20\x20\x20\x20\x0a│\x20⬢\x20connect\x20237xxxxx\x0a│\x20⬢\x20disconnect\x20237xxxxx\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰─────────────────╯\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a>\x20Powered\x20By\x20Senku\x20Tech\x20🥷🏾\x0a\x20\x20\x20\x20';await _0x4e5bbb[_0x2c38a9(0xd3)](_0x31da0b,{'image':{'url':_0x2c38a9(0xdb)},'caption':_0x9e02e,'quoted':_0x39312d});}function _0xc667(_0x361fef,_0x377787){const _0x58de59=_0x58de();return _0xc667=function(_0xc667e7,_0x293a5c){_0xc667e7=_0xc667e7-0xcb;let _0x5c95b9=_0x58de59[_0xc667e7];return _0x5c95b9;},_0xc667(_0x361fef,_0x377787);}function _0x58de(){const _0x206bba=['split','Unknown','pushName','2426572HpvBzx','getFullYear','𓂀\x20𝕊𝕖𝕟𝕜𝕦𓂀','Wednesday','getMonth','config','getDate','\x20\x0a╭─────────────────╮\x0a\x20\x20\x20\x20\x20\x20༒\x20𝕊𝕖𝕟𝕜𝕦\x20༒\x0a╰─────────────────╯\x0a╭─────────────────╮\x0a│\x20Prefix\x20:\x20','3849lPkByL','sendMessage','Tuesday','934209FUngNv','737SQxBBE','Monday','users','3123016GUlaPj','Saturday','menu.jpg','110lncNOA','remoteJid','53047hHNVYv','11305ajppBK','1482dXGhTN','5HgQrFW','\x0a│\x20Hello,\x20','Sunday','Friday','Thursday','user','key','158IEKCar'];_0x58de=function(){return _0x206bba;};return _0x58de();}export default prem;
+
+
+import configManager from '../utils/manageConfigs.js'
+
+export async function prem(message, client) {
+
+    const remoteJid = message.key.remoteJid;
+
+    const today = new Date();
+
+    const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const currentDay = daysOfWeek[today.getDay()];
+
+    const currentDate = today.getDate();
+
+    const currentMonth = today.getMonth() + 1; 
+
+    const currentYear = today.getFullYear();
+
+    const owner = "𓂀 𝕊𝕖𝕟𝕜𝕦𓂀";
+
+    const number = client.user.id.split(':')[0];
+
+    const username = message.pushName || "Unknown";
+
+    const t = ` 
+╭─────────────────╮
+      ༒ 𝕊𝕖𝕟𝕜𝕦 ༒
+╰─────────────────╯
+╭─────────────────╮
+│ Prefix : ${configManager.config.users[number].prefix}
+│ Hello, ${username}  
+│ Day : ${currentDay}
+│ Date : ${currentDate}/${currentMonth}/${currentYear} 
+│ Version : 5.2.0
+│ Plugins : 63
+│ Type : X-MD        
+╰─────────────────╯
+
+╭─[ ✧ PREMIUM CMD ✧ ]──╮
+│      
+│ ⬢ connect 237xxxxx
+│ ⬢ disconnect 237xxxxx 
+│ ⬢ reconnect       
+╰─────────────────╯        
+
+> Powered By Senku Tech 🥷🏾
+    `
+;
+
+    await client.sendMessage(remoteJid, {
+
+        image: { url: "menu.jpg" },
+
+        caption: t,
+
+        quoted: message 
+
+
+    });
+}   
+
+export default prem;

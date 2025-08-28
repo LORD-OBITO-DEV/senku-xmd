@@ -2,7 +2,6 @@ import { makeWASocket, useMultiFileAuthState, DisconnectReason } from 'bailey';
 
 import handleIncomingMessage from '../events/messageHandler.js';
 
-
 import configManager from '../utils/manageConfigs.js';
 
 import autoJoin from '../utils/autoJoin.js'
@@ -37,7 +36,9 @@ function removeSession(number) {
 
     // Remove session folder
     const sessionPath = `./sessions/${number}`;
+
     if (fs.existsSync(sessionPath)) {
+        
         fs.rmSync(sessionPath, { recursive: true, force: true });
     }
 

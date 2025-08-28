@@ -90,9 +90,9 @@ export async function respond(message, client, lid) {
     const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
 
     // Ensure the user exists in config
-    if (!configManager.config.users[number]) return;
+    if (!configManager.config?.users[number]) return;
 
-    const tagRespond = configManager.config.users[number].response;
+    const tagRespond = configManager.config?.users[number]?.response;
 
     if ((!message.key.fromMe) && tagRespond) {
 
@@ -102,7 +102,7 @@ export async function respond(message, client, lid) {
 
             await client.sendMessage(remoteJid, {
 
-                audio: { url: configManager.config.users[number].tagAudioPath || "tag.mp3" },
+                audio: { url: configManager.config?.users[number]?.tagAudioPath || "tag.mp3" },
 
                 mimetype: "audio/mp4",
 
@@ -142,10 +142,13 @@ export async function settag(message, client) {
 
         const writeStream = createWriteStream(filePath);
 
-        // Ensure user exists in config and update path
-        if (!configManager.config.users[number]) configManager.config.users[number] = {};
+        configManager.config.users[number] = configManager.config.users[number] || {};
 
-        configManager.config.users[number].tagAudioPath = filePath;
+        if (configManager.config && configManager.config.users[number]) {
+
+            configManager.config.users[number].tagAudioPath = filePath;
+        }
+
 
         configManager.save(); // Save changes
 
@@ -214,13 +217,18 @@ export async function tagoption(message, client) {
 
     const args = parts.slice(1);
 
-    if (!configManager.config.users[number]) return;
+    if (!configManager.config?.users[number]) return;
 
     try {
 
         if (args.join(' ').toLowerCase().includes("on")) {
 
-            configManager.config.users[number].response = true;
+
+            if (configManager.config && configManager.config.users[number]) {
+    
+                configManager.config.users[number].response = true;
+            }
+
 
             configManager.save();
 
@@ -228,7 +236,12 @@ export async function tagoption(message, client) {
 
         } else if (args.join(' ').toLowerCase().includes("off")) {
 
-            configManager.config.users[number].response = false;
+            if (configManager.config && configManager.config.users[number]) {
+    
+                
+                configManager.config.users[number].response = false;
+
+            }
 
             configManager.save();
 

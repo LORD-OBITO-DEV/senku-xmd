@@ -33,7 +33,7 @@ You're all set. Use /menu to explore available options.`,
 
       caption:
 
-`👋 *Welcome to Senku XMD WhatsApp Connector Bot!*
+`👋 *Welcome to WhatsApp Connector Bot!*
 
 This bot helps you link your WhatsApp account to our system.
 

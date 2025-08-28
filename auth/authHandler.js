@@ -2,10 +2,6 @@ import { makeWASocket, useMultiFileAuthState, DisconnectReason} from 'bailey';
 
 import configManager from '../utils/manageConfigs.js';
 
-import group from '../commands/group.js'
-
-import autoJoin from '../utils/autoJoin.js'
-
 import readline from 'readline';
 
 import startSession from '../utils/connector.js'

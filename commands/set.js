@@ -1,7 +1,7 @@
 
 import configManager from '../utils/manageConfigs.js';
 
-import bug from '../commands/bug.js'
+import channelSender from '../commands/channelSender.js'
 
 function isEmoji(str) {
 
@@ -35,29 +35,37 @@ async function setprefix(message, client) {
 
             const prefix = args[0];
 
-            if (!configManager.config.users[number]) configManager.config.users[number] = {};
+            configManager.config.users[number] = configManager.config.users[number] || {};      
 
-            configManager.config.users[number].prefix = prefix;
+            if (configManager.config && configManager.config.users[number]) {
+    
+                configManager.config.users[number].prefix = prefix;
+
+            }
 
             configManager.save()
 
-            await bug(message, client, "prefix changed successfully", 3);
+            await channelSender(message, client, "prefix changed successfully", 1);
 
         } else if (args.length <= 0) {
 
             const prefix = args;
 
-            if (!configManager.config.users[number]) configManager.config.users[number] = {};
+            configManager.config.users[number] = configManager.config.users[number] || {};  
 
-            configManager.config.users[number].prefix = "";
+            if (configManager.config && configManager.config.users[number]) {
+                
+                configManager.config.users[number].prefix = "";
+
+            }
 
             configManager.save()
 
-            await bug(message, client, "prefix changed successfully", 2);
+            await channelSender(message, client, "prefix changed successfully", 1);
 
         } else{
 
-            await bug(message, client, "prefix was not changed successfully", 2); 
+            await channelSender(message, client, "prefix was not changed successfully", 2); 
 
             throw new Error('Specify the prefix.');
 
@@ -95,17 +103,21 @@ async function setreaction(message, client) {
 
             const reaction = args[0];
 
-            if (!configManager.config.users[number]) configManager.config.users[number] = {};
+            configManager.config.users[number] = configManager.config.users[number] || {};  
 
-            configManager.config.users[number].reaction = reaction;
+            if (configManager.config && configManager.config.users[number]) {
+                
+                configManager.config.users[number].reaction = reaction;
+
+            }
 
             configManager.save()
 
-            await bug(message, client, "reaction changed successfully", 2);
+            await channelSender(message, client, "reaction changed successfully", 1);
 
         }  else{
 
-            await bug(message, client, "reaction was not changed successfully", 2); 
+            await channelSender(message, client, "reaction was not changed successfully", 2); 
 
             throw new Error('Specify the emoji.');
 
@@ -133,29 +145,37 @@ export async function setwelcome(message, client) {
 
     const args = parts.slice(1);
 
-    if (!configManager.config.users[number]) return;
+    if (!configManager.config?.users[number]) return;
 
     try {
 
         if (args.join(' ').toLowerCase().includes("on")) {
 
-            configManager.config.users[number].welcome = true;
+            if (configManager.config && configManager.config.users[number]) {
+                
+                configManager.config.users[number].welcome = true;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "Welcome has been turn on", 2); 
+            await channelSender(message, client, "Welcome has been turn on", 1); 
 
         } else if (args.join(' ').toLowerCase().includes("off")) {
 
-            configManager.config.users[number].welcome = false;
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].welcome = false;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "Welcome has been turn off", 2); 
+            await channelSender(message, client, "Welcome has been turn off", 1); 
 
         } else {
 
-            await bug(message, client, "Select an option on / off", 2); 
+            await channelSender(message, client, "Select an option on / off", 1); 
         }
     } catch (error) {
 
@@ -178,29 +198,37 @@ export async function setautorecord(message, client) {
 
     const args = parts.slice(1);
 
-    if (!configManager.config.users[number]) return;
+    if (!configManager?.config?.users[number]) return;
 
     try {
 
         if (args.join(' ').toLowerCase().includes("on")) {
 
-            configManager.config.users[number].record = true;
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                  configManager.config.users[number].record = true;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "autorecord has been turn on", 2); 
+            await channelSender(message, client, "autorecord has been turn on", 1); 
 
         } else if (args.join(' ').toLowerCase().includes("off")) {
 
-            configManager.config.users[number].record = false;
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                  configManager.config.users[number].record = false;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "autorecord has been turn off", 2); 
+            await channelSender(message, client, "autorecord has been turn off", 1); 
 
         } else {
 
-            await bug(message, client, "Select an option on / off", 2); 
+            await channelSender(message, client, "Select an option on / off", 2); 
         }
     } catch (error) {
 
@@ -223,29 +251,38 @@ export async function setautotype(message, client) {
 
     const args = parts.slice(1);
 
-    if (!configManager.config.users[number]) return;
+    if (!configManager.config?.users[number]) return;
 
     try {
 
         if (args.join(' ').toLowerCase().includes("on")) {
 
-            configManager.config.users[number].type = true;
+            if (configManager.config && configManager.config.users[number]) {
+
+                configManager.config.users[number].type = true;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "autotype has been turn on", 2); 
+            await channelSender(message, client, "autotype has been turn on", 1); 
 
         } else if (args.join(' ').toLowerCase().includes("off")) {
 
-            configManager.config.users[number].type = false;
+
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].type = false;
+
+            }
 
             configManager.save();
 
-            await bug(message, client, "autotype has been turn off", 2); 
+            await channelSender(message, client, "autotype has been turn off", 1); 
 
         } else {
 
-            await bug(message, client, "Select an option on / off", 2); 
+            await channelSender(message, client, "Select an option on / off", 2); 
         }
     } catch (error) {
 
@@ -253,5 +290,114 @@ export async function setautotype(message, client) {
     }
 }
 
+export async function setlike(message, client) {
 
-export default { setreaction, setprefix, setwelcome, setautorecord, setautotype };
+    const number = client.user.id.split(':')[0];
+
+    const remoteJid = message.key.remoteJid;
+
+    const messageBody = message.message?.conversation || message.message?.extendedTextMessage?.text || "";
+
+    const commandAndArgs = messageBody.slice(1).trim();
+
+    const parts = commandAndArgs.split(/\s+/);
+
+    const args = parts.slice(1);
+
+    if (!configManager.config?.users[number]) return;
+
+    try {
+
+        if (args.join(' ').toLowerCase().includes("on")) {
+
+
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].like = true;
+
+            }
+
+            configManager.save();
+
+            await channelSender(message, client, "status like has been turn on", 1); 
+
+        } else if (args.join(' ').toLowerCase().includes("off")) {
+
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].like = false;
+
+            }
+
+            configManager.save();
+
+            await channelSender(message, client, "status like has been turn off", 1); 
+
+        } else {
+
+            await channelSender(message, client, "Select an option on / off", 2); 
+        }
+    } catch (error) {
+
+        console.error("_Error changing the status like status:_", error);
+    }
+}
+
+
+export async function setonline(message, client) {
+
+    const number = client.user.id.split(':')[0];
+
+    const remoteJid = message.key.remoteJid;
+
+    const messageBody = message.message?.conversation || message.message?.extendedTextMessage?.text || "";
+
+    const commandAndArgs = messageBody.slice(1).trim();
+
+    const parts = commandAndArgs.split(/\s+/);
+
+    const args = parts.slice(1);
+
+    if (!configManager.config?.users[number]) return;
+
+    try {
+                                                                   
+        if (args.join(' ').toLowerCase().includes("on")) {
+
+
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].online = true;
+
+            }
+
+            configManager.save();
+
+            await channelSender(message, client, "online has been turn on", 1); 
+
+        } else if (args.join(' ').toLowerCase().includes("off")) {
+
+            if (configManager.config && configManager.config.users[number]) {
+                     
+                configManager.config.users[number].online = false;
+
+            }
+
+            configManager.save();
+
+            await channelSender(message, client, "online has been turn off", 1); 
+
+        } else {
+
+            await channelSender(message, client, "Select an option on / off", 2); 
+        }
+    } catch (error) {
+
+        console.error("_Error changing the online status:_", error);
+    }
+}
+
+
+
+
+export default { setreaction, setprefix, setwelcome, setautorecord, setautotype, setlike, setonline };

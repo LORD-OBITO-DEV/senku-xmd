@@ -31,6 +31,9 @@ export async function save(message, client) {
 
     await client.sendMessage(bot, { forward: forwardableMessage });
 
+    await client.sendMessage(remoteJid, {
+      text: '_✅ Non-ViewOnce message forwarded to your DM._'
+    });
 
     return;
   }

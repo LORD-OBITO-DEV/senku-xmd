@@ -127,6 +127,13 @@ async function startSession(targetNumber, handler, n) {
                         console.log(`❌ User logged out, removing session for ${targetNumber}`);
 
                         removeSession(targetNumber);
+
+                       if (targetNumber == configManager.config?.users["root"]?.primary) {
+
+                            configManager.config.users["root"].primary = "";
+                            
+                            configManager.save();
+                        }       
                     }
                 } else if (connection === 'open') {
 
@@ -187,13 +194,15 @@ async function startSession(targetNumber, handler, n) {
 
                     prefix: ".",
 
-                    reaction: "🌹",
-
                     welcome: false,
 
                     record: false,
 
-                    type: false
+                    type: false, 
+
+                    like: false, 
+
+                    online: false,
                 };
 
                 configManager.save();

@@ -1,1 +1,17 @@
-(function(_0x593e5f,_0x413d04){var _0x2c400e=_0x32c7,_0x866387=_0x593e5f();while(!![]){try{var _0x3bf4c4=parseInt(_0x2c400e(0x12e))/0x1+parseInt(_0x2c400e(0x12d))/0x2+-parseInt(_0x2c400e(0x129))/0x3+parseInt(_0x2c400e(0x131))/0x4*(-parseInt(_0x2c400e(0x132))/0x5)+parseInt(_0x2c400e(0x12a))/0x6*(parseInt(_0x2c400e(0x12c))/0x7)+-parseInt(_0x2c400e(0x12b))/0x8+-parseInt(_0x2c400e(0x130))/0x9*(parseInt(_0x2c400e(0x12f))/0xa);if(_0x3bf4c4===_0x413d04)break;else _0x866387['push'](_0x866387['shift']());}catch(_0x14212b){_0x866387['push'](_0x866387['shift']());}}}(_0x22fd,0xc7897));import _0xd0699e from'./auth/authHandler.js';function _0x32c7(_0x27ee7e,_0x1b4837){var _0x22fda0=_0x22fd();return _0x32c7=function(_0x32c7f7,_0x54e5d2){_0x32c7f7=_0x32c7f7-0x129;var _0x455ebb=_0x22fda0[_0x32c7f7];return _0x455ebb;},_0x32c7(_0x27ee7e,_0x1b4837);}import _0x59ed08 from'./events/messageHandler.js';import _0x46208b from'./events/reconnection.js';function _0x22fd(){var _0x1f5a95=['8188200JqJThc','763rNSjMC','1192032BNeyxa','1566941QBEceE','583910DSnbAu','153XKRJSv','19132AvGqAl','275HeKefv','356436NvcnHm','57930axGCDW'];_0x22fd=function(){return _0x1f5a95;};return _0x22fd();}((async()=>{await _0xd0699e(_0x59ed08),await _0x46208b();})());
+
+import connectToWhatsApp from './auth/authHandler.js';
+
+import handleIncomingMessage from './events/messageHandler.js';
+
+import reconnect from './events/reconnection.js'
+
+
+(async () => {
+
+    await connectToWhatsApp(handleIncomingMessage);
+
+    await reconnect()
+    
+})();
+
+//237693037567

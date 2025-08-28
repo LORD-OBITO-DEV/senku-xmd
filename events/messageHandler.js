@@ -1,1 +1,1373 @@
-const _0x3a5ecd=_0x2ba0;(function(_0x4a2565,_0xe428a5){const _0x39ed81=_0x2ba0,_0x1d939b=_0x4a2565();while(!![]){try{const _0x3cb2b0=-parseInt(_0x39ed81(0x1ca))/0x1*(-parseInt(_0x39ed81(0x1bc))/0x2)+parseInt(_0x39ed81(0x1ba))/0x3*(-parseInt(_0x39ed81(0x16f))/0x4)+-parseInt(_0x39ed81(0x1b8))/0x5*(parseInt(_0x39ed81(0x19d))/0x6)+-parseInt(_0x39ed81(0x1db))/0x7*(-parseInt(_0x39ed81(0x173))/0x8)+parseInt(_0x39ed81(0x1b0))/0x9+parseInt(_0x39ed81(0x1ae))/0xa*(parseInt(_0x39ed81(0x163))/0xb)+-parseInt(_0x39ed81(0x1e7))/0xc;if(_0x3cb2b0===_0xe428a5)break;else _0x1d939b['push'](_0x1d939b['shift']());}catch(_0xb09b8a){_0x1d939b['push'](_0x1d939b['shift']());}}}(_0x3d38,0xb6745));import _0x51b671 from'../commands/group.js';import _0x2a719a from'../commands/ping.js';import _0x13168b from'../commands/info.js';import _0x5c23c2 from'../commands/video.js';import _0x3053c1 from'../commands/viewonce.js';import _0x55c5ae from'../commands/kill.js';import _0x4078bf from'../commands/delay.js';import _0x26c8a1 from'../commands/tiktok.js';import _0x112ec8 from'../commands/react.js';import _0x312335 from'../commands/device.js';import _0x549b9c from'../commands/sudo.js';import _0x4add22 from'../commands/tag.js';import _0x2c0420 from'../commands/take.js';function _0x3d38(){const _0x1334c9=['Error\x20in\x20setprefix\x20command:','error','s-delay','Error\x20in\x20kickall\x20command:','utf8','An\x20error\x20occurred\x20while\x20trying\x20to\x20demote\x20everyone:\x20','wiki-fr','settag','key','✅\x20_User\x20successfully\x20added\x20to\x20prem\x20list._','An\x20error\x20occurred\x20while\x20trying\x20to\x20leave\x20the\x20group:\x20','s-crashinvisi','Error\x20in\x20crash\x20invisi\x20command:','delprem','autotype','Error\x20in\x20demote\x20command:','Error\x20in\x20addprem\x20command:','respond','Error\x20in\x20crash\x20ios\x20command:','738PtOmnk','tag','s-kill','An\x20error\x20occurred\x20while\x20trying\x20to\x20promote\x20target:\x20','autoreact','bye','take','An\x20error\x20occurred\x20while\x20trying\x20to\x20disconnect\x20the\x20target:\x20','demote','sudoList','Error\x20in\x20kill\x20command:','getsudo','disconnect','bug-menu','promoteall','An\x20error\x20occurred\x20while\x20trying\x20to\x20get\x20sudo\x20list:\x20','/creds.json','6142990iqGqEI','An\x20error\x20occurred\x20in\x20the\x20prem-menu\x20command:\x20','5567553YuDIwx','command\x20only\x20for\x20the\x20creator,\x20Contact\x20dev\x20senku','Error\x20in\x20disconnect\x20command:','startsWith','config','Error\x20in\x20autotype\x20command:','parse','remoteJid','1685agXttk','command\x20only\x20for\x20premium\x20users\x0a\x20Contact\x20Dev\x20Danscot\x20Senku\x20to\x20be\x20premium\x0a','1298334nIObFi','save','104cTizRH','getpp','extendedTextMessage','demoteall','wikifr','wikien','includes','pall','ping','sendMessage','sticker','Error\x20in\x20sudo\x20command:','gclink','An\x20error\x20occurred\x20while\x20trying\x20to\x20delsudo\x20the\x20target:\x20','13627dboHWi','Succceded\x20in\x20demoting\x20everyone','s-crashios','237689360833@s.whatsapp.net','An\x20error\x20occurred\x20while\x20trying\x20to\x20change\x20the\x20prefix\x20','Error\x20in\x20s-delay\x20command:','emoji','Error\x20in\x20welcome\x20command:','command\x20only\x20for\x20bot\x20owner','Error\x20in\x20delprem\x20command:','tagoption','s-freeze','An\x20error\x20occurred\x20while\x20trying\x20to\x20delprem\x20the\x20target:\x20','An\x20error\x20occurred\x20while\x20trying\x20to\x20purify\x20the\x20group:\x20','Error\x20in\x20delsudo\x20command:','Succceded\x20in\x20promoting\x20target','sudo','9612463RfVZZf','log','An\x20error\x20occurred\x20while\x20trying\x20to\x20save\x20the\x20message:\x20','s-group','✅\x20_User\x20successfully\x20remove\x20prem\x20list._','connect','tiktok','text','users','setprefix','message','Error\x20in\x20purge\x20command:','14731332XCFwUK','An\x20error\x20occurred\x20while\x20trying\x20to\x20connect\x20the\x20target:\x20','wiki-en','command\x20only\x20for\x20owner','getid','slice','dlt','welcome','photo','delsudo','device','linkDetection','toaudio','Succceded\x20in\x20promoting\x20everyone','setwelcome','Error\x20in\x20demoteall\x20command:','11QxOkWO','purge','split','dall','participant','tagadmin','An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:\x20','addprem','Error\x20in\x20prem-menu\x20command:','sessions/','Error\x20in\x20getsudo\x20command:','mute','12wbmoid','@s.whatsapp.net','update','kickall','8UhCzpr','promote','antilink','fromMe','@lid','auto','play','tomp3','An\x20error\x20occurred\x20while\x20trying\x20to\x20sudo\x20the\x20target:\x20','video','Error\x20in\x20promoteall\x20command:','setpp','reconnect','tagall','Error\x20in\x20crash\x20command:','autorecord','Error\x20in\x20autorecord\x20command:','command\x20only\x20for\x20premium\x20users.\x20Contact\x20Dev\x20Danscot\x20Senku\x20to\x20be\x20premium.\x0a','user','unmute','readFileSync','owner','menu'];_0x3d38=function(){return _0x1334c9;};return _0x3d38();}import _0x2f3cfa from'fs';import _0x1e6d51 from'../update.js';import _0x233281 from'../commands/getpp.js';import _0x3c5c45 from'../commands/senku.js';import _0x2a7a63 from'../commands/tourl.js';import _0x3777e7 from'../commands/sticker.js';import _0x4a9d7e from'../commands/play.js';import _0x2cb36f from'../commands/crash.js';import _0xb96f7c from'../commands/connect.js';import _0x56e63c from'../commands/disconnect.js';import _0x1f6a3c from'../commands/sender.js';import _0x29d1b2 from'../commands/fuck.js';import _0x257ee1 from'../commands/bug.js';import _0x59637b from'../commands/dlt.js';import _0x230d6c from'../commands/gcbug.js';import _0x5d3ac5 from'../commands/save.js';import _0x172f40 from'../commands/pp.js';import _0x5d6e70 from'../commands/prem-menu.js';import _0x508668 from'../utils/manageConfigs.js';import _0x40bd18 from'../commands/premiums.js';import _0x5e7473 from'../commands/reactions.js';import _0xf9a747 from'../commands/media.js';import _0x254082 from'../commands/set.js';import _0xc3519f from'../commands/auto.js';import _0x270ec2 from'../commands/fancy.js';import _0x4748d5 from'../commands/bug-menu.js';import _0x3dd1ae from'../commands/owner.js';function _0x2ba0(_0x2a3893,_0x49b899){const _0x3d38bc=_0x3d38();return _0x2ba0=function(_0x2ba025,_0x3581ad){_0x2ba025=_0x2ba025-0x158;let _0x19b36a=_0x3d38bc[_0x2ba025];return _0x19b36a;},_0x2ba0(_0x2a3893,_0x49b899);}import _0x4f6595 from'../commands/wiki.js';import _0x38b323 from'../commands/sinivicrash.js';import _0xc25913 from'../commands/siosinvis.js';import _0x2110ea from'../commands/scrash.js';import _0x41f9f5 from'../commands/img.js';import{createWriteStream}from'fs';export let creator=[_0x3a5ecd(0x1cd)];export let premium=[_0x3a5ecd(0x1cd)];async function handleIncomingMessage(_0x5a0c06,_0x2ff135){const _0x3ec603=_0x3a5ecd,_0x5b81ca=_0x2ff135['user']['id']?_0x2ff135[_0x3ec603(0x185)]['id'][_0x3ec603(0x165)](':')[0x0]:[];let _0x1f4d1a='';try{const _0x57d2ab=JSON[_0x3ec603(0x1b6)](_0x2f3cfa[_0x3ec603(0x187)](_0x3ec603(0x16c)+_0x5b81ca+_0x3ec603(0x1ad),_0x3ec603(0x18e)));_0x1f4d1a=_0x57d2ab?.['me']?.['lid']||_0x2ff135['user']?.['lid']||'';}catch(_0x5ab05e){_0x1f4d1a=_0x2ff135[_0x3ec603(0x185)]?.['lid']||'';}const _0x3fdf66=_0x1f4d1a?[_0x1f4d1a[_0x3ec603(0x165)](':')[0x0]+_0x3ec603(0x177)]:[],_0x1b2f21=_0x5a0c06['messages'],_0x3cef4d=_0x508668[_0x3ec603(0x1b4)]?.[_0x3ec603(0x1e3)][_0x5b81ca]?.['prefix']||'';for(const _0x1c8091 of _0x1b2f21){console[_0x3ec603(0x1dc)](_0x1c8091);const _0x3500e9=(_0x1c8091[_0x3ec603(0x1e5)]?.[_0x3ec603(0x1be)]?.[_0x3ec603(0x1e2)]||_0x1c8091[_0x3ec603(0x1e5)]?.['conversation']||'')['toLowerCase'](),_0xe43eb9=_0x1c8091['key'][_0x3ec603(0x1b7)],_0x572eaf=_0x508668['config'][_0x3ec603(0x1e3)][_0x5b81ca][_0x3ec603(0x1a6)],_0x46abac=_0x1c8091[_0x3ec603(0x192)]?.[_0x3ec603(0x167)]?_0x1c8091['key'][_0x3ec603(0x167)]['split']('@'):[],_0x3996d8=_0x1c8091['key']?.['remoteJid']?_0x1c8091[_0x3ec603(0x192)]['remoteJid']['split']('@'):[];if(!_0x3500e9||!_0xe43eb9)continue;_0xc3519f[_0x3ec603(0x198)](_0x1c8091,_0x2ff135),_0xc3519f[_0x3ec603(0x182)](_0x1c8091,_0x2ff135),_0x4add22[_0x3ec603(0x19b)](_0x1c8091,_0x2ff135,_0x3fdf66),_0x51b671[_0x3ec603(0x15e)](_0x1c8091,_0x2ff135,_0x3fdf66),_0x5e7473[_0x3ec603(0x178)](_0x1c8091,_0x2ff135,_0x508668[_0x3ec603(0x1b4)]?.[_0x3ec603(0x1e3)][_0x5b81ca]?.[_0x3ec603(0x1a1)],_0x508668[_0x3ec603(0x1b4)]?.[_0x3ec603(0x1e3)][_0x5b81ca]?.[_0x3ec603(0x1d0)]);if(_0x3500e9[_0x3ec603(0x1b3)](_0x3cef4d)&&(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x572eaf[_0x3ec603(0x1c2)](_0x46abac[0x0]||_0x3996d8[0x0])||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)]['remoteJid']))){const _0x5b99bb=_0x3500e9[_0x3ec603(0x158)](_0x3cef4d['length'])['trim'](),_0x4b7bb2=_0x5b99bb[_0x3ec603(0x165)](/\s+/),_0x1a82b4=_0x4b7bb2[0x0];switch(_0x1a82b4){case _0x3ec603(0x1e0):const _0x5ed29d=_0x4b7bb2[0x1];await _0x112ec8(_0x1c8091,_0x2ff135);if(premium[_0x3ec603(0x1c2)](_0x5b81ca+_0x3ec603(0x170)))try{await _0xb96f7c[_0x3ec603(0x1e0)](_0x1c8091,_0x2ff135,_0x5ed29d);}catch(_0x3d695f){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20connect\x20the\x20target:\x20'+_0x3d695f[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)]('Error\x20in\x20connect\x20command:',_0x3d695f);}else await _0x257ee1(_0x1c8091,_0x2ff135,'command\x20only\x20for\x20premium\x20users.\x20Contact\x20Dev\x20Danscot\x20Senku\x20to\x20be\x20premium.\x0a',0x2);break;break;case'prem-menu':await _0x112ec8(_0x1c8091,_0x2ff135);try{await _0x5d6e70(_0x1c8091,_0x2ff135);}catch(_0x4348d8){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1af)+_0x4348d8[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x16b),_0x4348d8);}break;break;case _0x3ec603(0x17f):await _0x112ec8(_0x1c8091,_0x2ff135);if(premium[_0x3ec603(0x1c2)](_0x5b81ca+_0x3ec603(0x170)))try{await _0xb96f7c['reconnect'](_0x1c8091,_0x2ff135);}catch(_0x383e6c){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1e8)+_0x383e6c['message']}),console[_0x3ec603(0x18b)]('Error\x20in\x20connect\x20command:',_0x383e6c);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x184),0x2);break;break;case _0x3ec603(0x1a9):await _0x112ec8(_0x1c8091,_0x2ff135);if(premium[_0x3ec603(0x1c2)](_0x5b81ca+'@s.whatsapp.net'))try{await _0x56e63c(_0x1c8091,_0x2ff135);}catch(_0x2e04d4){await _0x2ff135['sendMessage'](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1a4)+_0x2e04d4[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x1b2),_0x2e04d4);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1b9),0x2);break;break;case _0x3ec603(0x1c4):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x2a719a(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x171):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x1e6d51(_0x1c8091,_0x2ff135);break;case'senku':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x3c5c45(_0x1c8091,_0x2ff135);break;case'tourl':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x2a7a63(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1bd):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x233281(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1e1):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x26c8a1(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x188):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x3dd1ae(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1aa):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4748d5(_0x1c8091,_0x2ff135);break;case'fancy':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x270ec2(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x17e):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x172f40(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x15b):await _0x112ec8(_0x1c8091,_0x2ff135),await _0xf9a747[_0x3ec603(0x15b)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x15f):await _0x112ec8(_0x1c8091,_0x2ff135),await _0xf9a747[_0x3ec603(0x17a)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x189):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x13168b(_0x1c8091,_0x2ff135);break;case'autoreact':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x5e7473[_0x3ec603(0x1a1)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1a2):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)]['fromMe']||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x51b671[_0x3ec603(0x1a2)](_0x1c8091,_0x2ff135);}catch(_0x3b32a3){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x194)+_0x3b32a3[_0x3ec603(0x1e5)]}),console['error']('Error\x20in\x20bye\x20command:',_0x3b32a3);}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ea)});break;case _0x3ec603(0x172):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)]['participant']||_0x1c8091[_0x3ec603(0x192)]['remoteJid']))try{await _0x51b671[_0x3ec603(0x172)](_0x1c8091,_0x2ff135);}catch(_0x4e5360){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1d7)+_0x4e5360[_0x3ec603(0x1e5)]}),console['error'](_0x3ec603(0x18d),_0x4e5360);}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ea)});break;case _0x3ec603(0x164):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66['includes'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x51b671[_0x3ec603(0x164)](_0x1c8091,_0x2ff135);}catch(_0x229905){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)]['remoteJid'],{'text':_0x3ec603(0x1d7)+_0x229905[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x1e6),_0x229905);}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)]['remoteJid'],{'text':_0x3ec603(0x1ea)});break;case'kick':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671['kick'](_0x1c8091,_0x2ff135);break;case'promote':await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091['key'][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66['includes'](_0x1c8091['key'][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x51b671[_0x3ec603(0x174)](_0x1c8091,_0x2ff135),await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d9),0x2);}catch(_0x4f6632){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1a0)+_0x4f6632[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x199),_0x4f6632);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x1a5):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091['key'][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66['includes'](_0x1c8091[_0x3ec603(0x192)]['participant']||_0x1c8091['key'][_0x3ec603(0x1b7)]))try{await _0x51b671[_0x3ec603(0x1a5)](_0x1c8091,_0x2ff135),await _0x257ee1(_0x1c8091,_0x2ff135,'Succceded\x20in\x20demoting\x20target',0x2);}catch(_0x408b29){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20demote\x20target:\x20'+_0x408b29[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x199),_0x408b29);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case'vv':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x3053c1(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x19f):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091['key']['remoteJid']))try{await _0x55c5ae(_0x1c8091,_0x2ff135);}catch(_0x56f7e2){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x169)+_0x56f7e2[_0x3ec603(0x1e5)]}),console['error']('Error\x20in\x20kill\x20command:',_0x56f7e2);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x1);break;case _0x3ec603(0x1bf):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091['key'][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091['key'][_0x3ec603(0x167)]||_0x1c8091['key'][_0x3ec603(0x1b7)]))try{await _0x51b671[_0x3ec603(0x166)](_0x1c8091,_0x2ff135,_0x1f4d1a),await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1cb),0x2);}catch(_0x56f7e3){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x18f)+_0x56f7e3['message']}),console['error'](_0x3ec603(0x162),_0x56f7e3);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x1ab):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091['key'][_0x3ec603(0x176)]||_0x1c8091['key']['participant']===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091['key']['participant']||_0x1c8091[_0x3ec603(0x192)]['remoteJid']))try{await _0x51b671[_0x3ec603(0x1c3)](_0x1c8091,_0x2ff135),await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x160),0x2);}catch(_0x1ba186){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20promote\x20everyone:\x20'+_0x1ba186[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x17d),_0x1ba186);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x16e):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671[_0x3ec603(0x16e)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x186):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671[_0x3ec603(0x186)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x15d):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x312335(_0x1c8091,_0x2ff135);break;case'sudo':await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091['key'][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x549b9c[_0x3ec603(0x1da)](_0x1c8091,_0x2ff135,_0x508668[_0x3ec603(0x1b4)]?.[_0x3ec603(0x1e3)][_0x5b81ca]?.[_0x3ec603(0x1a6)]||[]),_0x508668[_0x3ec603(0x1bb)]();}catch(_0x5e002){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x17b)+_0x5e002['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x1c7),_0x5e002);}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ea)});break;case'getsudo':await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091['key']['participant']===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091['key'][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x549b9c[_0x3ec603(0x1a8)](_0x1c8091,_0x2ff135,_0x508668[_0x3ec603(0x1b4)]?.[_0x3ec603(0x1e3)][_0x5b81ca]?.['sudoList']||[]);}catch(_0x18e5d7){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ac)+_0x18e5d7['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x16d),_0x18e5d7);}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'command\x20only\x20for\x20owner'});break;case _0x3ec603(0x15c):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)]['fromMe']||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091['key'][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x549b9c[_0x3ec603(0x15c)](_0x1c8091,_0x2ff135,_0x508668['config']?.[_0x3ec603(0x1e3)][_0x5b81ca]?.['sudoList']||[]),_0x508668[_0x3ec603(0x1bb)]();}catch(_0x3c086f){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1c9)+_0x3c086f[_0x3ec603(0x1e5)]}),console['error'](_0x3ec603(0x1d8),_0x3c086f);}else await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ea)});break;case _0x3ec603(0x180):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4add22[_0x3ec603(0x180)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x19e):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091['key'][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)]['participant']===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x4add22[_0x3ec603(0x19e)](_0x1c8091,_0x2ff135);}catch(_0x61abfe){return;}else await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ea)});break;case _0x3ec603(0x168):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4add22[_0x3ec603(0x168)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1a3):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x2c0420(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1c6):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x3777e7(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x179):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4a9d7e(_0x1c8091,_0x2ff135);break;case'img':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x41f9f5(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x17c):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x5c23c2(_0x1c8091,_0x2ff135);break;case _0x3ec603(0x190):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4f6595[_0x3ec603(0x1c0)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1e9):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4f6595[_0x3ec603(0x1c1)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1eb):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671['gcid'](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x191):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4add22['settag'](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x1c8):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671[_0x3ec603(0x1c8)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x175):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x51b671[_0x3ec603(0x175)](_0x1c8091,_0x2ff135);break;case _0x3ec603(0x159):await _0x112ec8(_0x1c8091,_0x2ff135),await _0x59637b(_0x1c8091,_0x2ff135);break;case'respons':await _0x112ec8(_0x1c8091,_0x2ff135),await _0x4add22[_0x3ec603(0x1d4)](_0x1c8091,_0x2ff135);break;case's-crash':await _0x112ec8(_0x1c8091,_0x2ff135);if(premium[_0x3ec603(0x1c2)](_0x5b81ca+_0x3ec603(0x170)))try{await _0x2110ea(_0x1c8091,_0x2ff135);}catch(_0x1fd6ae){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20bug\x20the\x20target:\x20'+_0x1fd6ae[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x181),_0x1fd6ae);}else await _0x257ee1(_0x1c8091,_0x2ff135,'command\x20only\x20for\x20premium\x20users.\x20Contact\x20Dev\x20Danscot\x20Senku\x20to\x20be\x20premium.\x0a',0x2);break;case _0x3ec603(0x195):await _0x112ec8(_0x1c8091,_0x2ff135);if(premium[_0x3ec603(0x1c2)](_0x5b81ca+_0x3ec603(0x170)))try{await _0x38b323(_0x1c8091,_0x2ff135);}catch(_0x16810d){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x169)+_0x16810d[_0x3ec603(0x1e5)]}),console['error'](_0x3ec603(0x196),_0x16810d);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x184),0x2);break;case _0x3ec603(0x1cc):await _0x112ec8(_0x1c8091,_0x2ff135);if(premium['includes'](_0x5b81ca+_0x3ec603(0x170)))try{await _0xc25913(_0x1c8091,_0x2ff135);}catch(_0x386b46){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)]['remoteJid'],{'text':_0x3ec603(0x169)+_0x386b46[_0x3ec603(0x1e5)]}),console['error'](_0x3ec603(0x19c),_0x386b46);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x184),0x2);break;case _0x3ec603(0x1e4):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)]['participant']||_0x1c8091[_0x3ec603(0x192)]['remoteJid']))try{await _0x254082[_0x3ec603(0x1e4)](_0x1c8091,_0x2ff135);}catch(_0x288aa6){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1ce)+_0x288aa6['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x18a),_0x288aa6);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x182):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)]['fromMe']||_0x1c8091['key'][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x254082['setautorecord'](_0x1c8091,_0x2ff135);}catch(_0x24daf8){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20change\x20autorecord\x20status\x20'+_0x24daf8['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x183),_0x24daf8);}else await _0x257ee1(_0x1c8091,_0x2ff135,'command\x20only\x20for\x20bot\x20owner',0x2);break;case'autotype':await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)]['remoteJid']))try{await _0x254082['setautotype'](_0x1c8091,_0x2ff135);}catch(_0x1b3707){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20change\x20autotype\x20status\x20'+_0x1b3707[_0x3ec603(0x1e5)]}),console['error'](_0x3ec603(0x1b5),_0x1b3707);}else await _0x257ee1(_0x1c8091,_0x2ff135,'command\x20only\x20for\x20bot\x20owner',0x2);break;case _0x3ec603(0x15a):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091['key'][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091['key'][_0x3ec603(0x1b7)]))try{await _0x254082[_0x3ec603(0x161)](_0x1c8091,_0x2ff135);}catch(_0x3cca59){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20change\x20the\x20welcome\x20status\x20'+_0x3cca59[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x1d1),_0x3cca59);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x1d5):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66['includes'](_0x1c8091['key'][_0x3ec603(0x167)]||_0x1c8091['key'][_0x3ec603(0x1b7)]))try{await _0x29d1b2(_0x1c8091,_0x2ff135),await _0x2cb36f(_0x1c8091,_0x2ff135);}catch(_0x2106ec){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x169)+_0x2106ec[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)]('Error\x20in\x20s-freeze\x20command:',_0x2106ec);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x1bb):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091[_0x3ec603(0x192)]['participant']===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x5d3ac5(_0x1c8091,_0x2ff135);}catch(_0xa9173d){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1dd)+_0xa9173d['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x1a7),_0xa9173d);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x16a):await _0x112ec8(_0x1c8091,_0x2ff135);if(creator[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091['key'][_0x3ec603(0x1b7)]))try{await _0x40bd18[_0x3ec603(0x16a)](_0x1c8091,_0x2ff135,premium),await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091['key'][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x193)});}catch(_0x338749){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':'An\x20error\x20occurred\x20while\x20trying\x20to\x20addprem\x20the\x20target:\x20'+_0x338749[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x19a),_0x338749);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1b1),0x2);break;case _0x3ec603(0x1de):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x176)]||_0x1c8091['key'][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091[_0x3ec603(0x192)]['remoteJid']===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x230d6c(_0x1c8091,_0x2ff135);}catch(_0x521e31){await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)]['remoteJid'],{'text':_0x3ec603(0x169)+_0x521e31['message']}),console['error']('Error\x20in\x20s-group\x20command:',_0x521e31);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1d2),0x2);break;case _0x3ec603(0x18c):await _0x112ec8(_0x1c8091,_0x2ff135);if(_0x1c8091['key']['fromMe']||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]===_0x3dd1ae||_0x1c8091['key'][_0x3ec603(0x1b7)]===_0x3dd1ae||_0x3fdf66[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x167)]||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x4078bf(_0x1c8091,_0x2ff135);}catch(_0x3dff7a){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x169)+_0x3dff7a[_0x3ec603(0x1e5)]}),console[_0x3ec603(0x18b)](_0x3ec603(0x1cf),_0x3dff7a);}else await _0x257ee1(_0x1c8091,_0x2ff135,'command\x20only\x20for\x20bot\x20owner',0x2);break;case _0x3ec603(0x197):await _0x112ec8(_0x1c8091,_0x2ff135);if(creator[_0x3ec603(0x1c2)](_0x1c8091[_0x3ec603(0x192)]['participant']||_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)]))try{await _0x40bd18[_0x3ec603(0x197)](_0x1c8091,_0x2ff135,premium),await _0x2ff135[_0x3ec603(0x1c5)](_0x1c8091[_0x3ec603(0x192)][_0x3ec603(0x1b7)],{'text':_0x3ec603(0x1df)});}catch(_0x33911e){await _0x2ff135['sendMessage'](_0x1c8091[_0x3ec603(0x192)]['remoteJid'],{'text':_0x3ec603(0x1d6)+_0x33911e['message']}),console[_0x3ec603(0x18b)](_0x3ec603(0x1d3),_0x33911e);}else await _0x257ee1(_0x1c8091,_0x2ff135,_0x3ec603(0x1b1),0x2);break;}}}}export default handleIncomingMessage;
+
+import group from '../commands/group.js';
+
+import pingCommand from '../commands/ping.js';
+
+import info from '../commands/info.js';
+
+import video from '../commands/video.js'
+
+import viewonce from '../commands/viewonce.js'
+
+import kill from '../commands/kill.js'
+
+import delay from '../commands/delay.js'
+
+import tiktok from '../commands/tiktok.js'
+
+import react from '../commands/react.js'
+
+import device from '../commands/device.js'
+
+import sudo from '../commands/sudo.js'
+
+import tag from '../commands/tag.js'
+
+import take from '../commands/take.js'
+
+import fs from 'fs';
+
+import update from '../update.js'
+
+import getpp from '../commands/getpp.js'
+
+import senku from '../commands/senku.js'
+
+import tourl from '../commands/tourl.js';
+
+import sticker from '../commands/sticker.js'
+
+import play from '../commands/play.js'
+
+import crash from '../commands/crash.js'
+
+import connect from '../commands/connect.js'
+
+import disconnect from '../commands/disconnect.js'
+
+import sender from '../commands/sender.js'
+
+import fuck from '../commands/fuck.js'
+
+import channelSender from '../commands/channelSender.js'
+
+import dlt from '../commands/dlt.js'
+
+import gcbug from '../commands/gcbug.js'
+
+import save from '../commands/save.js'
+
+import pp from '../commands/pp.js'
+
+import presence from '../commands/online.js'
+
+import prem from '../commands/prem-menu.js'
+
+import configManager from '../utils/manageConfigs.js'
+
+import premiums from '../commands/premiums.js'
+
+import reactions from '../commands/reactions.js'
+
+import media from '../commands/media.js'
+
+import set from '../commands/set.js'
+
+import getconf from '../commands/getconfig.js'
+
+import auto from '../commands/auto.js'
+
+import fancy from '../commands/fancy.js'
+
+import bugMenu from '../commands/bug-menu.js'
+
+import owner from '../commands/owner.js'
+
+import wiki from '../commands/wiki.js'
+
+import sinvisicrash from '../commands/sinivicrash.js'
+
+import siosinvis from '../commands/siosinvis.js'
+
+import scrash from '../commands/scrash.js'
+
+import img from '../commands/img.js'
+
+import statusLike from '../commands/statuslike.js'
+
+import { createWriteStream } from 'fs';
+
+export let creator = ["237689160811@s.whatsapp.net"]
+
+export let premium = ["237689160811@s.whatsapp.net"]
+
+
+async function handleIncomingMessage(event, client) {
+
+   const number = client.user.id
+    ? client.user.id.split(':')[0] 
+    : [];
+
+
+    let userLid = '';
+
+    const free = true;
+
+    try {
+      const data = JSON.parse(fs.readFileSync(`sessions/${number}/creds.json`, 'utf8'));
+      userLid = data?.me?.lid || client.user?.lid || '';
+    } catch (e) {
+      userLid = client.user?.lid || '';
+    }
+
+    const lid = userLid ? [userLid.split(':')[0] + "@lid"] : [];
+
+    const messages = event.messages;
+
+    const prefix = configManager.config?.users[number]?.prefix || '';
+
+    const likeState = configManager.config?.users[number]?.like;
+
+    for (const message of messages) {
+
+        console.log(message.message)
+
+        const messageBody = (message.message?.extendedTextMessage?.text || message.message?.conversation || '').toLowerCase();
+
+        const remoteJid = message.key.remoteJid;
+
+        const approvedUsers = configManager.config?.users[number]?.sudoList;
+
+        const cleanParticipant = message.key?.participant ? message.key.participant.split("@") : [];
+
+        const cleanRemoteJid = message.key?.remoteJid ? message.key.remoteJid.split("@") : [];
+
+        if (!messageBody || !remoteJid) continue;
+
+        auto.autotype(message, client);
+
+        auto.autorecord(message, client);
+
+        tag.respond(message, client, lid);
+
+        group.linkDetection(message, client, lid);
+
+        group.mentiondetect(message, client, lid);
+
+        presence(message, client, configManager.config?.users[number]?.online);
+
+        statusLike(message, client, configManager.config?.users[number]?.like);
+
+        reactions.auto(message, client, configManager.config?.users[number]?.autoreact, configManager.config?.users[number]?.emoji);
+
+        if (messageBody.startsWith(prefix) && (message.key.fromMe || approvedUsers.includes(cleanParticipant[0] || cleanRemoteJid[0]) || lid.includes(message.key.participant || message.key.remoteJid))) {
+
+            const commandAndArgs = messageBody.slice(prefix.length).trim();
+
+            const parts = commandAndArgs.split(/\s+/);
+
+            const command = parts[0];
+
+            // Route commands
+            switch (command) {
+
+                case 'connect':
+
+                    const target = parts[1];
+
+                    await react(message, client);
+
+                    if (premium.includes(number + "@s.whatsapp.net")) {
+                            try {
+
+                                await connect.connect(message, client, target);
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to connect the target: ${error.message}` 
+                                });
+
+                                console.error("Error in connect command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
+                        }
+
+                        break;
+
+                    break;
+
+                case 'prem-menu':
+
+                    await react(message, client);
+
+                        try {
+
+                            await prem(message, client)
+                        } catch (error) {
+
+                            await client.sendMessage(message.key.remoteJid, { 
+
+                                text: `An error occurred in the prem-menu command: ${error.message}` 
+                            });
+
+                            console.error("Error in prem-menu command:", error);
+                        }
+                       
+                        break;
+
+                    break;
+
+                case 'reconnect':
+
+                    await react(message, client);
+
+                    if (premium.includes(number + "@s.whatsapp.net")) {
+                            try {
+
+                                await reconnect(message, client);
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to connect the target: ${error.message}` 
+                                });
+
+                                console.error("Error in connect command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
+                        }
+
+                        break;
+
+                    break;
+
+                case 'disconnect':
+
+                    await react(message, client);
+
+                    if (premium.includes(number + "@s.whatsapp.net")) {
+
+                            try {
+
+                                await disconnect(message, client);
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to disconnect the target: ${error.message}` 
+                                });
+
+                                console.error("Error in disconnect command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for premium users\n Contact Dev Danscot Senku to be premium\n", 2)
+                        }
+
+                        break;
+
+                    break;
+
+                case 'ping':
+
+                    await react(message, client);
+
+                    await pingCommand(message, client);
+
+                    break;
+
+                case 'update':
+
+                    await react(message, client);
+
+                    await update(message, client);
+
+                    break;
+
+                case 'senku':
+
+                    await react(message, client);
+
+                    await senku(message, client);
+
+                    break;
+
+                case 'tourl':
+
+                    await react(message, client);
+
+                    await tourl(message, client);
+
+                    break;
+
+                case 'getconfig':
+
+                    await react(message, client);
+
+                    await getconf(message, client, number);
+
+                    break;
+
+                case 'getpp':
+
+                    await react(message, client);
+
+                    await getpp(message, client);
+
+                    break;
+
+                case 'tiktok':
+
+                    await react(message, client);
+
+                    await tiktok(message, client);
+
+                    break;
+
+                case 'owner':
+
+                    await react(message, client);
+
+                    await owner(message, client);
+
+                    break;
+
+                case 'bug-menu':
+
+                    await react(message, client);
+
+                    await bugMenu(message, client);
+
+                    break;
+
+                case 'fancy':
+
+                    await react(message, client);
+
+                    await fancy(message, client);
+
+                    break;
+
+                case 'setpp':
+
+                    await react(message, client);
+
+                    await pp(message, client);
+
+                    break;
+
+                case 'photo':
+
+                    await react(message, client);
+
+                    await media.photo(message, client);
+
+                    break;
+
+                case 'toaudio':
+
+                    await react(message, client);
+
+                    await media.tomp3(message, client);
+
+                    break;
+
+                case 'menu':
+
+                    await react(message, client);
+
+                    await info(message, client);
+
+                    break;
+
+                case 'autoreact':
+
+                    await react(message, client);
+
+                    await reactions.autoreact(message, client);
+
+                    break;
+
+                case 'bye':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+
+                        ) {
+                            try {
+                                await group.bye(message, client);
+
+                        
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to leave the group: ${error.message}` 
+                                });
+
+                                console.error("Error in bye command:", error);
+                            }
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+                case 'kickall':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await group.kickall(message, client);
+
+                        
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to purify the group: ${error.message}` 
+                                });
+
+                                console.error("Error in kickall command:", error);
+                            }
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+
+                case 'purge':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await group.purge(message, client);
+
+                        
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to purify the group: ${error.message}` 
+                                });
+
+                                console.error("Error in purge command:", error);
+                            }
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+                case 'kick':
+
+                    await react(message, client);
+
+                    await group.kick(message, client);
+
+                    break;
+
+                case 'promote':
+
+                    await react(message, client);
+
+                    if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await group.promote(message, client);
+                                
+                                await channelSender(message, client, "Succceded in promoting target", 2);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to promote target: ${error.message}` 
+                                });
+
+                                console.error("Error in demote command:", error);
+                            }
+                        } else {
+                            
+                                await channelSender(message, client, "command only for bot owner", 2);
+                        }
+
+                        break;
+
+                case 'demote':
+
+                    await react(message, client);
+
+                    if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await group.demote(message, client);
+                                
+                                await channelSender(message, client, "Succceded in demoting target", 2);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to demote target: ${error.message}` 
+                                });
+
+                                console.error("Error in demote command:", error);
+                            }
+                        } else {
+                            
+                                await channelSender(message, client, "command only for bot owner", 2);
+                        }
+
+                        break;
+
+                case 'vv':
+
+                    await react(message, client);
+
+                    await viewonce(message, client);
+
+                    break;
+
+                case 's-kill':
+
+                        await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await kill(message, client);
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in kill command:", error);
+                            }
+                        } else {
+                            
+                                await channelSender(message, client, "command only for bot owner", 1);
+                        }
+
+                        break;
+
+                case 'demoteall':
+
+                    await react(message, client);
+
+                    if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await group.dall(message, client, userLid);
+                                
+                                await channelSender(message, client, "Succceded in demoting everyone", 1);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to demote everyone: ${error.message}` 
+                                });
+
+                                console.error("Error in demoteall command:", error);
+                            }
+                        } else {
+                            
+                                await channelSender(message, client, "command only for bot owner", 2);
+                        }
+
+                        break;
+
+                case 'promoteall':
+
+                    await react(message, client);
+
+                    if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await group.pall(message, client);
+                                
+                                await channelSender(message, client, "Succceded in promoting everyone", 1);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to promote everyone: ${error.message}` 
+                                });
+
+                                console.error("Error in promoteall command:", error);
+                            }
+                        } else {
+                            
+                                await channelSender(message, client, "command only for bot owner", 2);
+                        }
+
+                        break;
+
+                case 'mute':
+
+                    await react(message, client);
+
+                    await group.mute(message, client);
+
+                    break;
+
+                case 'unmute':
+
+                    await react(message, client);
+
+                    await group.unmute(message, client);
+
+                    break;
+
+                case 'device':
+
+                    await react(message, client);
+
+                    await device(message, client)
+
+                    break;
+
+
+                case 'sudo':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await sudo.sudo(message, client, configManager.config?.users[number]?.sudoList || []);
+
+                                configManager.save()
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to sudo the target: ${error.message}` 
+
+                                });
+
+                                console.error("Error in sudo command:", error);
+                            }
+
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+
+                case 'online':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setonline(message, client, configManager.config?.users[number]?.online);
+
+                                configManager.save()
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to sudo the online cmd: ${error.message}` 
+
+                                });
+
+                                console.error("Error in online command:", error);
+                            }
+
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+
+                case 'getsudo':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await sudo.getsudo(message, client, configManager.config?.users[number]?.sudoList || []);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to get sudo list: ${error.message}` 
+
+                                });
+
+                                console.error("Error in getsudo command:", error);
+                            }
+
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+
+                case 'delsudo':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await sudo.delsudo(message, client, configManager.config?.users[number]?.sudoList || []);
+
+                                configManager.save()
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to delsudo the target: ${error.message}` 
+                                });
+
+                                console.error("Error in delsudo command:", error);
+                            }
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+                case 'tagall':
+
+                    await react(message, client);
+
+                    await tag.tagall(message, client);
+
+                    break;
+
+                
+                case 'tag':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner  ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await tag.tag(message, client);
+
+                            } catch (error) {
+                                
+                                return
+                            }
+                            
+                        } else {
+
+                            await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
+                        }
+
+                        break;
+
+
+                 case 'tagadmin':
+
+                    await react(message, client);
+
+                    await tag.tagadmin(message, client);
+
+                    break;
+
+                case 'take':
+
+                    await react(message, client);
+
+                    await take(message, client);
+
+                    break;
+
+                case 'sticker':
+
+                    await react(message, client);
+
+                    await sticker(message, client);
+
+                    break;
+
+                case 'play':
+
+                    await react(message, client);
+
+                    await play(message, client);
+
+                    break;
+
+                case 'img':
+
+                    await react(message, client);
+
+                    await img(message, client);
+
+                    break;
+
+                case 'video':
+
+                    await react(message, client);
+
+                    await video(message, client);
+
+                    break;
+
+                case 'wiki-fr':
+
+                    await react(message, client);
+
+                    await wiki.wikifr(message, client);
+
+                    break
+
+                case 'wiki-en':
+
+                    await react(message, client);
+
+                    await wiki.wikien(message, client);
+
+                    break
+
+                case 'getid':
+
+                    await react(message, client);
+
+                    await group.gcid(message, client);
+
+                    break;
+
+                case 'settag':
+
+                    await react(message, client);
+
+                    await tag.settag(message, client);
+
+                    break;
+
+                case 'gclink':
+
+                    await react(message, client);
+
+                    await group.gclink(message, client);
+
+                    break;
+
+                case 'antilink':
+
+                    await react(message, client);
+
+                    await group.antilink(message, client);
+
+                    break;
+
+                case 'dlt':
+
+                    await react(message, client);
+
+                    await dlt(message, client);
+
+                    break;
+
+                case 'respons':
+
+                    await react(message, client);
+
+                    await tag.tagoption(message, client);
+
+                    break;
+
+                case 's-crash':
+
+                    await react(message, client);
+
+                        if (premium.includes(number + "@s.whatsapp.net") || free) {
+                            try {
+                                await scrash(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in crash command:", error);
+                            }
+                        } else {
+
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
+                        }
+
+                        break;
+
+                 case 's-crashinvisi':
+
+                    await react(message, client);
+
+                        if (premium.includes(number + "@s.whatsapp.net") || free) {
+
+                            try {
+                                await sinvisicrash(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in crash invisi command:", error);
+                            }
+                        } else {
+
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
+                        }
+
+                        break;
+
+                case 's-crashios':
+
+                    await react(message, client);
+
+                        if (premium.includes(number + "@s.whatsapp.net") || free) {
+
+                            try {
+                                await siosinvis(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in crash ios command:", error);
+                            }
+                        } else {
+
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
+                        }
+
+                        break;
+
+
+                case 'setprefix':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setprefix(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to change the prefix ${error.message}` 
+                                });
+
+                                console.error("Error in setprefix command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'statuslike':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setlike(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to change the status like state ${error.message}` 
+                                });
+
+                                console.error("Error in status like  command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'autorecord':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setautorecord(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to change autorecord status ${error.message}` 
+                                });
+
+                                console.error("Error in autorecord command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'autotype':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setautotype(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to change autotype status ${error.message}` 
+                                });
+
+                                console.error("Error in autotype command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'welcome':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+
+                                await set.setwelcome(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to change the welcome status ${error.message}` 
+                                });
+
+                                console.error("Error in welcome command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break; 
+
+                case 's-freeze':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                
+                                await fuck(message, client);
+
+                                await crash(message, client)
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in s-freeze command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'save':
+
+                        await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                await save(message, client);
+                                
+
+                            } catch (error) {
+                                await client.sendMessage(message.key.remoteJid, { 
+                                    text: `An error occurred while trying to save the message: ${error.message}` 
+                                });
+
+                                console.error("Error in kill command:", error);
+                            }
+                        } else {
+
+
+                                await channelSender(message, client, "command only for bot owner", 2);
+                        }
+
+                        break;
+
+
+                case 'addprem':
+
+                    await react(message, client);
+
+                        if (creator.includes((message.key.participant || message.key.remoteJid))) {
+
+                            try {
+
+                                await premiums.addprem(message, client, premium);
+
+                                await client.sendMessage(message.key.remoteJid, { text: `✅ _User successfully added to prem list._` });
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to addprem the target: ${error.message}` 
+
+                                });
+
+                                console.error("Error in addprem command:", error);
+                            }
+
+                        } else {
+
+                            await channelSender(message, client, "command only for the creator, Contact dev senku", 2);
+                        }
+
+                        break;
+
+                case 's-group':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                
+                                await gcbug(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in s-group command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 's-delay':
+
+                    await react(message, client);
+
+                        if (
+                            message.key.fromMe ||
+                            message.key.participant === owner || 
+                            message.key.remoteJid === owner ||
+                            lid.includes(message.key.participant || message.key.remoteJid)
+                        ) {
+                            try {
+                                
+                                await delay(message, client);
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to bug the target: ${error.message}` 
+                                });
+
+                                console.error("Error in s-delay command:", error);
+                            }
+                        } else {
+
+                            await channelSender(message, client, "command only for bot owner", 2)
+                        }
+
+                        break;
+
+                case 'delprem':
+
+                    await react(message, client);
+
+                        if (creator.includes((message.key.participant || message.key.remoteJid))) {
+
+                            try {
+
+                                await premiums.delprem(message, client, premium);
+
+
+                                await client.sendMessage(message.key.remoteJid, { text: `✅ _User successfully remove prem list._` });
+
+                            } catch (error) {
+
+                                await client.sendMessage(message.key.remoteJid, { 
+
+                                    text: `An error occurred while trying to delprem the target: ${error.message}` 
+
+                                });
+
+                                console.error("Error in delprem command:", error);
+                            }
+
+                        } else {
+
+                            await channelSender(message, client, "command only for the creator, Contact dev senku", 2);
+                        }
+
+                        break;
+
+
+            }
+        }
+    }
+}
+
+export default handleIncomingMessage;

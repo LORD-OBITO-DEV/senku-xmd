@@ -6,7 +6,7 @@ import { execSync } from 'child_process';
 
 import { fileURLToPath } from 'url';
 
-import bug from './commands/bug.js'
+import channelSender from './commands/channelSender.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url);
@@ -86,7 +86,7 @@ async function update(message, client) {
   }
 
 
-  bug(message, client, "Your bot instance has been updated to latest version sucessfully.\n\nThanks for using our service\n\n```powered by senku tech```", 2)
+  channelSender(message, client, "Your bot instance has been updated to latest version sucessfully.\n\nThanks for using our service\n\n```powered by senku tech```", 2)
   
 };
 

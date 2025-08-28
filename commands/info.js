@@ -1,1 +1,154 @@
-(function(_0x323385,_0xb80561){const _0x2d918f=_0x328c,_0x3e782b=_0x323385();while(!![]){try{const _0x59ad2f=parseInt(_0x2d918f(0xf2))/0x1*(-parseInt(_0x2d918f(0xee))/0x2)+-parseInt(_0x2d918f(0xe6))/0x3+-parseInt(_0x2d918f(0xed))/0x4*(parseInt(_0x2d918f(0xf7))/0x5)+-parseInt(_0x2d918f(0x102))/0x6+parseInt(_0x2d918f(0x103))/0x7*(-parseInt(_0x2d918f(0xe7))/0x8)+parseInt(_0x2d918f(0x101))/0x9*(-parseInt(_0x2d918f(0xf3))/0xa)+-parseInt(_0x2d918f(0xfd))/0xb*(-parseInt(_0x2d918f(0xf5))/0xc);if(_0x59ad2f===_0xb80561)break;else _0x3e782b['push'](_0x3e782b['shift']());}catch(_0x580db5){_0x3e782b['push'](_0x3e782b['shift']());}}}(_0xfd40,0x1adbe));import _0xc3d132 from'../utils/manageConfigs.js';function _0xfd40(){const _0x124135=['remoteJid','Thursday','users','\x20\x0a│\x20Version\x20:\x205.0.0\x0a│\x20Plugins\x20:\x2060\x0a│\x20Type\x20:\x20X-MD\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰─────────────────╯\x0a\x0a\x0a╭──[\x20✨\x20MENUS\x20✨\x20]─────╮\x0a│\x0a│\x20⇛\x20menu\x0a│\x20⇛\x20prem-menu\x0a│\x20⇛\x20bug-menu\x0a╰─────────────────╯\x0a\x0a╭──[\x20📃\x20UTILS\x20📃\x20]──────╮\x0a│\x20\x0a│\x20⇛\x20ping\x0a│\x20⇛\x20getid\x0a│\x20⇛\x20sudo\x0a│\x20⇛\x20tourl\x0a│\x20⇛\x20owner\x20\x20\x20\x20\x0a│\x20⇛\x20fancy\x20\x20\x20\x0a│\x20⇛\x20update\x0a│\x20⇛\x20device\x20\x0a│\x20⇛\x20delsudo\x0a│\x20⇛\x20getsudo\x20\x0a│\x20⇛\x20welcome\x0a│\x20⇛\x20autotype\x0a│\x20⇛\x20autoreact\x0a│\x20⇛\x20setprefix\x0a│\x20⇛\x20autorecord\x20\x20\x20\x20\x0a╰─────────────────╯\x0a\x0a╭──[\x20✘\x20GROUP\x20✘\x20]─────╮\x0a│\x0a│\x20⇛\x20kick\x0a│\x20⇛\x20purge\x20\x20\x20\x20\x20\x20\x20\x20\x0a│\x20⇛\x20mute\x0a│\x20⇛\x20unmute\x0a│\x20⇛\x20promote\x0a│\x20⇛\x20demote\x0a│\x20⇛\x20gclink\x20\x20\x20\x20\x20\x20\x0a│\x20⇛\x20antilink\x0a│\x20⇛\x20kickall\x0a│\x20⇛\x20promoteall\x0a│\x20⇛\x20demoteall\x0a╰─────────────────╯\x0a\x0a╭──[\x20💾\x20MEDIA\x20💾\x20]─────╮\x0a│\x0a│\x20⇛\x20vv\x20\x0a│\x20⇛\x20take\x20\x20\x0a│\x20⇛\x20save\x20\x0a│\x20⇛\x20photo\x0a│\x20⇛\x20setpp\x0a│\x20⇛\x20getpp\x0a│\x20⇛\x20toaudio\x0a│\x20⇛\x20sticker\x0a╰─────────────────╯\x0a\x0a\x0a╭──[\x20🔎\x20SEARCH\x20🔎\x20]─────╮\x0a│\x0a│\x20⇛\x20senku\x20>\x20question\x0a│\x20⇛\x20Wiki-en\x20>\x20topic\x0a│\x20⇛\x20Wiki-fr\x20>\x20topic\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰─────────────────╯\x0a\x0a\x0a╭──[\x20♫\x20DOWNLOADER\x20♫\x20]──╮\x0a│\x20\x0a│\x20⇛\x20img\x0a│\x20⇛\x20play\x0a│\x20⇛\x20tiktok\x0a╰─────────────────╯\x0a\x0a╭──[\x20📣\x20TAGS\x20📣\x20]──────╮\x0a│\x0a│\x20⇛\x20tag\x0a│\x20⇛\x20tagadmin\x0a│\x20⇛\x20tagall\x0a│\x20⇛\x20settag\x20\x20\x0a│\x20⇛\x20respons\x0a╰─────────────────╯\x0a\x0a>\x20Powered\x20By\x20Senku\x20Tech\x20🥷🏾\x0a\x20\x20\x20\x20','8aKvUvO','263038vXIYrg','Wednesday','\x0a│\x20Date\x20:\x20','𓂀\x20𝕊𝕖𝕟𝕜𝕦𓂀','1gwVlUx','32530itEJrs','\x20\x20\x0a│\x20Day\x20:\x20','100212eEFQKV','menu.mp3','394435rpHbZD','user','menu.jpg','getDay','Sunday','sendMessage','1133kirQvB','key','Saturday','getMonth','333mXOIOz','1275690GiXOVA','7uQeDZF','Unknown','config','Monday','split','\x0a│\x20Hello,\x20','\x20\x0a╭─────────────────╮\x0a\x20\x20\x20\x20\x20\x20\x20༒\x20𝕊𝕖𝕟𝕜𝕦\x20༒\x0a╰─────────────────╯\x0a╭─────────────────╮\x0a│\x20Prefix\x20:\x20','315324bVoKuN','182096PvJQUX','Tuesday'];_0xfd40=function(){return _0x124135;};return _0xfd40();}function _0x328c(_0x18e2df,_0x15dd18){const _0xfd40c9=_0xfd40();return _0x328c=function(_0x328c53,_0x8bd240){_0x328c53=_0x328c53-0xe0;let _0x466f53=_0xfd40c9[_0x328c53];return _0x466f53;},_0x328c(_0x18e2df,_0x15dd18);}export async function info(_0x2a8877,_0x307ee9){const _0x4d881e=_0x328c,_0x37288a=_0x2a8877[_0x4d881e(0xfe)][_0x4d881e(0xe9)],_0x1a38df=new Date(),_0x194382=[_0x4d881e(0xfb),_0x4d881e(0xe2),_0x4d881e(0xe8),_0x4d881e(0xef),_0x4d881e(0xea),'Friday',_0x4d881e(0xff)],_0x5ed178=_0x194382[_0x1a38df[_0x4d881e(0xfa)]()],_0x3cc453=_0x1a38df['getDate'](),_0x40c90a=_0x1a38df[_0x4d881e(0x100)]()+0x1,_0x3e69b4=_0x1a38df['getFullYear'](),_0xca5a17=_0x4d881e(0xf1),_0x549fc1=_0x307ee9[_0x4d881e(0xf8)]['id'][_0x4d881e(0xe3)](':')[0x0],_0x72967a=_0x2a8877['pushName']||_0x4d881e(0xe0),_0x4bacca=_0x4d881e(0xe5)+_0xc3d132[_0x4d881e(0xe1)][_0x4d881e(0xeb)][_0x549fc1]['prefix']+_0x4d881e(0xe4)+_0x72967a+_0x4d881e(0xf4)+_0x5ed178+_0x4d881e(0xf0)+_0x3cc453+'/'+_0x40c90a+'/'+_0x3e69b4+_0x4d881e(0xec);await _0x307ee9[_0x4d881e(0xfc)](_0x37288a,{'image':{'url':_0x4d881e(0xf9)},'caption':_0x4bacca,'quoted':_0x2a8877}),await _0x307ee9[_0x4d881e(0xfc)](_0x37288a,{'audio':{'url':_0x4d881e(0xf6)},'mimetype':'audio/mp4','ptt':!![],'quoted':_0x2a8877});}export default info;
+
+import configManager from '../utils/manageConfigs.js'
+
+export async function info(message, client) {
+
+    const remoteJid = message.key.remoteJid;
+
+    const today = new Date();
+
+    const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const currentDay = daysOfWeek[today.getDay()];
+
+    const currentDate = today.getDate();
+
+    const currentMonth = today.getMonth() + 1; 
+
+    const currentYear = today.getFullYear();
+
+    const owner = "𓂀 𝕊𝕖𝕟𝕜𝕦𓂀";
+
+    const number = client.user.id.split(':')[0];
+
+    const username = message.pushName || "Unknown";
+
+    const t = ` 
+╭─────────────────╮
+       ༒ 𝕊𝕖𝕟𝕜𝕦 ༒
+╰─────────────────╯
+╭─────────────────╮
+│ Prefix : ${configManager.config.users[number].prefix}
+│ Hello, ${username}  
+│ Day : ${currentDay}
+│ Date : ${currentDate}/${currentMonth}/${currentYear} 
+│ Version : 5.2.0
+│ Plugins : 63
+│ Type : X-MD        
+╰─────────────────╯
+
+
+╭──[ ✨ MENUS ✨ ]─────╮
+│
+│ ⇛ menu
+│ ⇛ prem-menu
+│ ⇛ bug-menu
+╰─────────────────╯
+
+╭──[ 📃 UTILS 📃 ]──────╮
+│ 
+│ ⇛ ping
+│ ⇛ getid
+│ ⇛ sudo
+│ ⇛ tourl
+│ ⇛ owner    
+│ ⇛ fancy   
+│ ⇛ update
+│ ⇛ device 
+│ ⇛ delsudo
+│ ⇛ getsudo    
+╰─────────────────╯
+
+╭──[ 🔎 CONFIG 🔎 ]─────╮
+│
+│ ⇛ online
+│ ⇛ welcome
+│ ⇛ autotype
+│ ⇛ autoreact
+│ ⇛ setprefix
+│ ⇛ getconfig
+│ ⇛ statuslike
+│ ⇛ autorecord        
+╰─────────────────╯
+
+╭──[ ✘ GROUP ✘ ]─────╮
+│
+│ ⇛ bye
+│ ⇛ kick
+│ ⇛ purge        
+│ ⇛ mute
+│ ⇛ unmute
+│ ⇛ promote
+│ ⇛ demote
+│ ⇛ gclink      
+│ ⇛ antilink
+│ ⇛ kickall
+│ ⇛ promoteall
+│ ⇛ demoteall
+╰─────────────────╯
+
+╭──[ 💾 MEDIA 💾 ]─────╮
+│
+│ ⇛ vv 
+│ ⇛ take  
+│ ⇛ save 
+│ ⇛ photo
+│ ⇛ setpp
+│ ⇛ getpp
+│ ⇛ toaudio
+│ ⇛ sticker
+╰─────────────────╯
+
+
+╭──[ 🔎 SEARCH 🔎 ]─────╮
+│
+│ ⇛ senku > question
+│ ⇛ Wiki-en > topic
+│ ⇛ Wiki-fr > topic        
+╰─────────────────╯
+
+
+╭──[ ♫ DOWNLOADER ♫ ]──╮
+│ 
+│ ⇛ img
+│ ⇛ play
+│ ⇛ tiktok
+╰─────────────────╯
+
+╭──[ 📣 TAGS 📣 ]──────╮
+│
+│ ⇛ tag
+│ ⇛ tagadmin
+│ ⇛ tagall
+│ ⇛ settag  
+│ ⇛ respons
+╰─────────────────╯
+
+> Powered By Senku Tech 🥷🏾
+    `
+;
+
+    await client.sendMessage(remoteJid, {
+
+        image: { url: "menu.jpg" },
+
+        caption: t,
+
+        quoted: message 
+
+
+    });
+
+    await client.sendMessage(remoteJid, {
+
+            audio: { url: "menu.mp3" }, 
+
+            mimetype: 'audio/mp4',
+
+            ptt: true,
+
+            quoted: message
+        });
+}   
+
+export default info;
