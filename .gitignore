@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+
+# Build outputs / temp files
+dist/
+build/
+.cache/
+sessions/
+
+.git
