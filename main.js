@@ -10,7 +10,7 @@ import reconnect from './events/reconnection.js'
 
     await connectToWhatsApp(handleIncomingMessage);
 
-    await reconnect()
+   // await reconnect()
     
 })();
 
