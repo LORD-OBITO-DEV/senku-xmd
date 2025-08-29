@@ -7,5 +7,6 @@ dist/
 build/
 .cache/
 sessions/
-
-.git
+.config.json
+sessions.json
+index.js
