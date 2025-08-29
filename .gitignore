@@ -9,4 +9,4 @@ build/
 sessions/
 config.json/
 sessions.json/
-index.js/
+./index.js/
