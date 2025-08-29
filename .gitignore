@@ -1,12 +1,17 @@
 # Node modules
 node_modules/
 
-
 # Build outputs / temp files
 dist/
 build/
 .cache/
-sessions/
-config.json/
-sessions.json/
-index.js/
+
+# Session/auth files
+sessions
+sessions.json
+
+# Config (local secrets)
+config.json
+
+# (Optional) if you really don’t want to commit main file
+index.js 
