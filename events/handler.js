@@ -1,28 +1,63 @@
+import fs from 'fs';
 
 import start from '../commands/start.js';
 
 import menu from '../commands/menu.js';
 
-import fs from 'fs'
-
 import handleCheckJoin from '../utils/checkJoin.js';
 
 import { isUserInChannel } from '../utils/checkmember.js';
 
-import sessionCount from '../utils/sessionCount.js'
+import sessionCount from '../utils/sessionCount.js';
 
-import redirect from '../utils/redirect.js'
+import redirect from '../utils/redirect.js';
 
-import { OWNER_ID } from '../config.js'
+import { OWNER_ID } from '../config.js';
 
 import { LIMIT } from '../config.js';
 
 import connect from '../utils/connect.js';
 
-import configManager from '../utils/manageConfigs.js'
+import disconnect from '../utils/disconnect.js';
 
-import disconnect from '../utils/disconnect.js'
+import configManager from '../utils/manageConfigs.js';
 
+function isPremium(userId) {
+
+  const data = JSON.parse(fs.readFileSync('./prem.json', 'utf-8'));
+
+  return data.users.includes(userId.toString());
+}
+
+function addPremium(userId) {
+
+  const data = JSON.parse(fs.readFileSync('./prem.json', 'utf-8'));
+
+  if (!data.users.includes(userId.toString())) {
+
+    data.users.push(userId.toString());
+
+    fs.writeFileSync('./prem.json', JSON.stringify(data, null, 2));
+  }
+}
+
+function encode(id, dur){
+
+  const expiry = Date.now() + dur * 24 * 60 * 60 * 1000;
+
+  const raw = `${id}|${expiry}`;
+
+  return Buffer.from(raw).toString("base64");
+}
+
+function removePremium(userId) {
+
+  const data = JSON.parse(fs.readFileSync('./prem.json', 'utf-8'));
+
+  data.users = data.users.filter(id => id !== userId.toString());
+
+  fs.writeFileSync('./prem.json', JSON.stringify(data, null, 2));
+}
 
 export function messageHandler(bot) {
 
@@ -32,24 +67,29 @@ export function messageHandler(bot) {
 
   });
 
+  bot.onText(/\/myid/, async (msg) => {
+
+    const id = msg.from.id;
+
+    return bot.sendMessage(msg.chat.id, `Your telegram id is : ${id}`);
+
+  });
+
   bot.onText(/\/menu/, async (msg) => {
 
     const userId = msg.from.id;
 
     const isMember = await isUserInChannel(bot, userId);
 
-    if (isMember) {
+    if (!isMember) return await start(bot, msg);
 
-      await menu(bot, msg);
+    if (!isPremium(userId)) {
 
-    } else {
-
-      await start(bot, msg);
-
+      return bot.sendMessage(msg.chat.id, "❌ You're not a premium user. Contact dev Senku.");
     }
 
+    await menu(bot, msg);
   });
-
 
   bot.onText(/\/connect(?: (.+))?/, async (msg, match) => {
 
@@ -57,29 +97,54 @@ export function messageHandler(bot) {
 
     const isMember = await isUserInChannel(bot, userId);
 
-    if (isMember) {
+    if (!isMember) return await start(bot, msg);
 
-      const session = sessionCount()
+    if (!isPremium(userId)) {
 
-      if (session >= LIMIT) {
+      return bot.sendMessage(msg.chat.id, "❌ You're not a premium user. Contact dev Senku.");
 
-        await redirect(bot, msg)
+    }
 
-      } else {
+    const session = sessionCount();
 
-        await connect.connect(bot, msg, match);
+    if (session >= LIMIT) {
 
-      }
-
+      await redirect(bot, msg);
 
     } else {
 
-      await start(bot, msg);
+      await connect.connect(bot, msg, match);
 
     }
 
   });
 
+  bot.onText(/\/disconnect(?: (.+))?/, async (msg, match) => {
+
+    const userId = msg.from.id;
+
+    const isMember = await isUserInChannel(bot, userId);
+
+    if (!isMember) return await start(bot, msg);
+
+    if (!isPremium(userId)) {
+
+      return bot.sendMessage(msg.chat.id, "❌ You're not a premium user. Contact dev Senku.");
+    }
+
+    const session = sessionCount();
+
+    if (session >= LIMIT) {
+
+      await redirect(bot, msg);
+
+    } else {
+
+      await disconnect(bot, msg, match);
+
+    }
+
+  });
 
   bot.on('callback_query', async (callbackQuery) => {
 
@@ -91,56 +156,33 @@ export function messageHandler(bot) {
 
   });
 
-  bot.onText(/\/start_report/, async (msg) => {
+  bot.onText(/\/addprem(?: (.+))?/, async (msg, match) => {
 
     if (msg.from.id.toString() !== OWNER_ID) return;
 
-    bot.sendMessage(msg.chat.id, '✅ Report triggered.');
+    const targetId = match[1];
 
-    configManager.config.users["0"].report_status = true;
+    if (!targetId) return bot.sendMessage(msg.chat.id, "❌ Please provide a user ID.");
 
-    
+    addPremium(targetId);
 
-});
-
-  bot.onText(/\/stop_report/, async (msg) => {
-
-    if (msg.from.id.toString() !== OWNER_ID) return;
-
-    bot.sendMessage(msg.chat.id, '✅ Report triggered.');
-
-    configManager.config.users["0"].report_status = false;
-
-    
-
-});
-
-  bot.onText(/\/disconnect(?: (.+))?/, async (msg, match) => {
-
-    const userId = msg.from.id;
-
-    const isMember = await isUserInChannel(bot, userId);
-
-    if (isMember) {
-
-      const session = sessionCount()
-
-      if (session >= LIMIT) {
-
-        await redirect(bot, msg)
-
-      } else {
-
-        await disconnect(bot, msg, match);
-
-      }
-
-
-    } else {
-
-      await start(bot, msg);
-
-    }
+    bot.sendMessage(msg.chat.id, `✅ User ${targetId} added to prem list successfully.`);
 
   });
+
+  bot.onText(/\/delprem(?: (.+))?/, async (msg, match) => {
+
+    if (msg.from.id.toString() !== OWNER_ID) return;
+
+    const targetId = match[1];
+
+    if (!targetId) return bot.sendMessage(msg.chat.id, "❌ Please provide a user ID.");
+
+    removePremium(targetId);
+
+    bot.sendMessage(msg.chat.id, `✅ User ${targetId} removed from prem list successfully.`);
+
+  });
+
+
 }

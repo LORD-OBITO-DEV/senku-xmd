@@ -10,7 +10,7 @@ import reconnect from '../events/reconnection.js';
 
 export let bot;
 
-export async function startBot() {
+export async function startBot(duration) {
 
   try {
     
