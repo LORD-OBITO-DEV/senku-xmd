@@ -16,6 +16,6 @@ temp
 config.json
 
 # (Optional) if you really don’t want to commit main file
-#index.js 
+index.js 
 
 #config.js
