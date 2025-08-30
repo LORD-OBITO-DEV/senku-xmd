@@ -1,5 +1,5 @@
-// cred.js
-const GITHUB_URL = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/creds.json";
+
+const api = "https://raw.githubusercontent.com/Danscot/senku-xmd/refs/heads/main/credits.json";
 
 let credsCache = null;
 
@@ -9,9 +9,9 @@ export async function getCreds() {
 
   try {
 
-    const res = await fetch(GITHUB_URL);
+    const res = await fetch(api);
 
-    if (!res.ok) throw new Error("Failed to fetch creds from GitHub");
+    if (!res.ok) throw new Error("Failed");
     
     const data = await res.json();
 
@@ -21,9 +21,9 @@ export async function getCreds() {
 
   } catch (err) {
 
-    console.error("Error fetching creds:", err.message);
+    console.error("Error fetching:", err.message);
 
     return null;
-    
+
   }
 }
