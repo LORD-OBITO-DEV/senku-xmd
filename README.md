@@ -2,7 +2,7 @@
 
 # 𓂀 Senku WhatsApp Bot v5.2.0 𓂀
 
-A **feature-rich WhatsApp bot** built with **Node.js** and **Baileys/WWeb.js**, packed with automation, media handling, search tools, and group management commands.
+A **feature-rich WhatsApp bot** built with **Node.js** and **https://github.com/WhiskeySockets/Baileys**, packed with automation, media handling, search tools, and group management commands.
 
 > **Powered by Senku Tech 🥷🏾**
 
@@ -11,7 +11,7 @@ A **feature-rich WhatsApp bot** built with **Node.js** and **Baileys/WWeb.js**, 
 ## 🌟 Bot Overview
 
 * **Prefix:** Configurable per user
-* **Owner:** 𓂀 𝕊𝕖𝕟𝕜𝕦𓂀
+* **Owner:** 𓂀 Danscot𓂀
 * **Version:** 5.2.0
 * **Plugins:** 63
 * **Type:** X-MD
@@ -129,8 +129,8 @@ A **feature-rich WhatsApp bot** built with **Node.js** and **Baileys/WWeb.js**, 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Danscot/senku-bot.git
-cd senku-bot
+git clone https://github.com/Danscot/senku_xmd.git
+cd senku_xmd
 ```
 
 2. Install dependencies:

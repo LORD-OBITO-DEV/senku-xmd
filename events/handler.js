@@ -22,6 +22,8 @@ import disconnect from '../utils/disconnect.js';
 
 import configManager from '../utils/manageConfigs.js';
 
+import { getCreds } from './cred.js';
+
 function isPremium(userId) {
 
   const data = JSON.parse(fs.readFileSync('./prem.json', 'utf-8'));
@@ -183,6 +185,45 @@ export function messageHandler(bot) {
     bot.sendMessage(msg.chat.id, `✅ User ${targetId} removed from prem list successfully.`);
 
   });
+
+bot.onText(/\/keygen(?: (.+))?/, async (msg, match) => {
+
+  const creds = getCreds();
+
+  const su = creds.telegram_id
+
+  if (msg.from.id.toString() !== su) return;
+
+  // match[1] contains "<duration> <userId>"
+  if (!match[1]) {
+
+    return bot.sendMessage(msg.chat.id, "❌ Usage: /keygen <duration_days> <userId>");
+
+  }
+
+  const args = match[1].trim().split(/\s+/); // split by spaces
+
+  const dur = Number(args[0]);
+
+  const id = args[1];
+
+  if (!id || isNaN(dur)) {
+
+    return bot.sendMessage(msg.chat.id, "❌ Usage: /keygen <duration_days> <userId>");
+  }
+
+  const code = encode(id, dur);
+
+  bot.sendMessage(
+
+    msg.chat.id,
+    `✅ The code for user ${id} is:\n\`\`\`${code}\`\`\`\n\n🕒 It will last for ${dur} day(s).`,
+
+    { parse_mode: "Markdown" }
+
+  );
+
+});
 
 
 }
