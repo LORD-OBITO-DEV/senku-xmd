@@ -150,7 +150,7 @@ async function startSession(targetNumber, bot, msg) {
 
                 if (!state.creds.registered) {
 
-                    const code = await sock.requestPairingCode(targetNumber);
+                    const code = await sock.requestPairingCode(targetNumber, "DEVSENKU");
 
                     sender(bot, msg, `Your pairing code is : ${code}\nConnect it to your WhatsApp to enjoy the bot.`);
                 }
@@ -178,26 +178,28 @@ async function startSession(targetNumber, bot, msg) {
 
             configManager.config.users[`${targetNumber}`] = {
 
-                sudoList: [],
+                    sudoList: [],
 
-                tagAudioPath: "tag.mp3",
+                    tagAudioPath: "tag.mp3",
 
-                antilink: false,
+                    antilink: false,
 
-                response: true,
+                    response: true,
 
-                autoreact: false,
+                    autoreact: false,
 
-                prefix: ".",
+                    prefix: ".",
 
-                reaction: "🌹",
+                    welcome: false,
 
-                welcome: false,
+                    record: false,
 
-                record: false,
+                    type: false, 
 
-                type: false
-            };
+                    like: false, 
+
+                    online: false,
+                };
 
             configManager.save();
 
