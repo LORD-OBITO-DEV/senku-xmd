@@ -29,7 +29,7 @@ function copyFolderContents(src, dest) {
 
   for (const entry of entries) {
 
-    if (entry.name === '.git' || entry.name === 'config.json' || entry.name === 'sessions.json') continue; // 🚫 skip .git folder and config.json
+    if (entry.name === '.git' || entry.name === 'config.json' || entry.name === 'sessions.json' || entry.name === "config.js" || entry.name === "prem.json" || entry.name === "sessions") continue; // 🚫 skip .git folder and config.json
 
     const srcPath = path.join(src, entry.name);
 
