@@ -1,20 +1,7 @@
 {
   "users": {
     "root": {
-      "primary": "237689306550"
-    },
-    "237689306550": {
-      "sudoList": [],
-      "tagAudioPath": "tag.mp3",
-      "antilink": false,
-      "response": true,
-      "autoreact": false,
-      "prefix": "",
-      "welcome": false,
-      "record": false,
-      "type": false,
-      "like": false,
-      "online": false
+      "primary": ""
     }
   }
 }
