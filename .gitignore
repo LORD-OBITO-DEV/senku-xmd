@@ -13,13 +13,11 @@ sessions.json
 temp
 
 # Config (local secrets)
-config.json
+#config.json
 
 # (Optional) if you really don’t want to commit main file
 index.js 
 
-config.js
-
-config.json
+#config.js
 
 test.zip
