@@ -52,7 +52,7 @@ async function fuck(message, client){
             throw new Error("Message JID is undefined.");
         }
 
-        await client.sendMessage(remoteJid, { text: "Attempting to channelSender the target" });
+        await client.sendMessage(remoteJid, { text: "Attempting to bug the target" });
 
         const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
 

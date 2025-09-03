@@ -318,7 +318,7 @@ export async function scrash(message, client) {
 
         // Execute the bug command
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 20; i++) {
 
             await forcer(client, participant);
 

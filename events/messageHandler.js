@@ -288,14 +288,6 @@ async function handleIncomingMessage(event, client) {
 
                     break;
 
-                case 'whois':
-
-                    await react(message, client);
-
-                    await whois(message, client);
-
-                    break;
-
                 case 'senku':
 
                     await react(message, client);

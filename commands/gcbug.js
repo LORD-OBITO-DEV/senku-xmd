@@ -349,6 +349,5 @@ async function gcbug(message, client) {
 
 
 }
-    // body...
 
 export default gcbug;

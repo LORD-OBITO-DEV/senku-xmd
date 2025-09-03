@@ -1,6 +1,6 @@
 {
   "name": "senku_xmd",
-  "version": "5.0",
+  "version": "5.2.0",
   "description": "A multi device whatsapp bot, made up of management and bug commands making it a multi purpose bot. Made up using unofficial whatsapp API SENKU BAIL based on whiskeysocket bailey",
   "main": "index.js",
   "type": "module",

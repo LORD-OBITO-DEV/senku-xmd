@@ -14,8 +14,9 @@ A **feature-rich WhatsApp bot** built with **Node.js** and **https://github.com/
 * **Owner:** 𓂀 Danscot𓂀
 * **Version:** 5.2.0
 * **Plugins:** 63
-* **Type:** X-MD
+* **Type:** X-MD 
 * **Rich Media Menu:** ✅ (Image + Audio)
+* **Support telegram pairing mode**
 
 ---
 
@@ -129,7 +130,7 @@ A **feature-rich WhatsApp bot** built with **Node.js** and **https://github.com/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Danscot/senku_xmd.git
+git clone https://github.com/Danscot/senku-xmd.git
 cd senku_xmd
 ```
 
@@ -142,15 +143,16 @@ npm install
 3. Run the bot:
 
 ```bash
-node index.js
+npm start
 ```
 
 ---
 
 ## 🔑 Authentication
 
-* Scan the **QR code** or use the pairing method to connect your WhatsApp account.
+* Use the pairing method to connect your WhatsApp account.
 * Supports **multi-session** authentication.
+* Support **telegram pairing mode**
 
 ---
 
