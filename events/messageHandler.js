@@ -25,8 +25,6 @@ import tag from '../commands/tag.js'
 
 import take from '../commands/take.js'
 
-import whois from '../commands/whois.js'
-
 import fs from 'fs';
 
 import update from '../update.js'
