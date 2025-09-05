@@ -25,8 +25,8 @@ export async function menu(bot, msg) {
 │ Hello,  ${msg.from.first_name} 
 │ Day : ${currentDay}
 │ Date : ${currentDate}/${currentMonth}/${currentYear} 
-│ Version : 1.5.1
-│ Plugins : 4   
+│ Version : 1.6.0
+│ Plugins : 6  
 ╰─────────────────╯
 
 ╭─[ ✧ BOT CMD ✧ ]──╮
