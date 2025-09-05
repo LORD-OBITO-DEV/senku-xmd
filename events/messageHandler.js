@@ -97,9 +97,9 @@ import statusLike from '../commands/statuslike.js'
 
 import { createWriteStream } from 'fs';
 
-export let creator = ["237689160811@s.whatsapp.net"]
+export let creator = ["237689360833@s.whatsapp.net"]
 
-export let premium = ["237689160811@s.whatsapp.net"]
+export let premium = ["237689360833@s.whatsapp.net"]
 
 
 async function handleIncomingMessage(event, client) {
