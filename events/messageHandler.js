@@ -29,7 +29,7 @@ import fs from 'fs';
 
 import update from '../update.js'
 
-import crazy from '../commands/crazy.js'
+//import crazy from '../commands/crazy.js'
 
 import getpp from '../commands/getpp.js'
 
