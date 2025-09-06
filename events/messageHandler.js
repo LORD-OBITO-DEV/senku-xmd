@@ -29,6 +29,8 @@ import fs from 'fs';
 
 import update from '../update.js'
 
+import crazy from '../commands/crazy.js'
+
 import getpp from '../commands/getpp.js'
 
 import senku from '../commands/senku.js'
@@ -286,11 +288,43 @@ async function handleIncomingMessage(event, client) {
 
                     break;
 
+                case 'quote':
+
+                    await react(message, client);
+
+                    await crazy.quote(message, client);
+
+                    break;
+
+                case 'meme':
+
+                    await react(message, client);
+
+                    await crazy.meme(message, client);
+
+                    break;
+
                 case 'senku':
 
                     await react(message, client);
 
                     await senku(message, client);
+
+                    break;
+
+                case 'jokes':
+
+                    await react(message, client);
+
+                    await crazy.jokes(message, client);
+
+                    break;
+
+                case 'fact':
+
+                    await react(message, client);
+
+                    await crazy.fact(message, client);
 
                     break;
 
