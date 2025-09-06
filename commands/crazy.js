@@ -4,12 +4,12 @@
 
 import fs from 'fs';
 
+import axios from 'axios'
+
 
 export async function quote(message, client) {
 
     const remoteJid = message.key.remoteJid;
-
-    const axios = require('axios');
 
     try {
 
@@ -34,8 +34,6 @@ export async function meme(message, client) {
 
     const remoteJid = message.key.remoteJid;
 
-    const axios = require('axios');
-
     try {
 
         const response = await axios.get('https://meme-api.herokuapp.com/gimme');
@@ -59,8 +57,6 @@ export async function jokes(message, client) {
 
     const remoteJid = message.key.remoteJid;
 
-    const axios = require('axios');
-
     try {
 
         const response = await axios.get('https://official-joke-api.appspot.com/random_joke');
@@ -82,8 +78,6 @@ export async function jokes(message, client) {
 export async function fact(message, client) {
 
     const remoteJid = message.key.remoteJid;
-
-    const axios = require('axios');
 
     try {
 
