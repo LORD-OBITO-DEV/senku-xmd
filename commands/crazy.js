@@ -1,6 +1,6 @@
 // some fun and utils commands ya :)
 
-import config from 'api.jsonfig.js';
+//import config from 'api.jsonfig.js';
 
 import fs from 'fs';
 
