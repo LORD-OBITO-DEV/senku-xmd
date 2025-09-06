@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 // some fun and utils commands ya :)
 
 //import config from 'api.jsonfig.js';
@@ -99,3 +116,5 @@ export async function fact(message, client) {
 
 
 export default  { quote, meme, jokes, fact };
+
+*/

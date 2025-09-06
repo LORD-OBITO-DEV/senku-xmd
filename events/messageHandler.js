@@ -288,6 +288,17 @@ async function handleIncomingMessage(event, client) {
 
                     break;
 
+
+                case 'senku':
+
+                    await react(message, client);
+
+                    await senku(message, client);
+
+                    break;
+
+                /*
+
                 case 'quote':
 
                     await react(message, client);
@@ -304,13 +315,6 @@ async function handleIncomingMessage(event, client) {
 
                     break;
 
-                case 'senku':
-
-                    await react(message, client);
-
-                    await senku(message, client);
-
-                    break;
 
                 case 'jokes':
 
@@ -327,6 +331,8 @@ async function handleIncomingMessage(event, client) {
                     await crazy.fact(message, client);
 
                     break;
+
+                */
 
                 case 'tourl':
 

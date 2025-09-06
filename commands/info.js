@@ -32,7 +32,7 @@ export async function info(message, client) {
 │ Hello, ${username}  
 │ Day : ${currentDay}
 │ Date : ${currentDate}/${currentMonth}/${currentYear} 
-│ Version : 5.2.1
+│ Version : 5.2.0
 │ Plugins : 64
 │ Type : X-MD        
 ╰─────────────────╯
@@ -102,10 +102,7 @@ export async function info(message, client) {
 
 ╭──[ 🔎 SEARCH 🔎 ]─────╮
 │
-│ ⇛ meme
-│ ⇛ fact
-│ ⇛ jokes
-│ ⇛ quote 
+
 │ ⇛ senku > question
 │ ⇛ Wiki-en > topic
 │ ⇛ Wiki-fr > topic       
