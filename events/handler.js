@@ -24,11 +24,19 @@ import configManager from '../utils/manageConfigs.js';
 
 import { getCreds } from '../credits.js';
 
+import { PUB } from '../config.js';
+
 function isPremium(userId) {
 
   const data = JSON.parse(fs.readFileSync('./prem.json', 'utf-8'));
 
-  return data.users.includes(userId.toString());
+  const ispub = PUB;
+
+  const isprem = data.users.includes(userId.toString());
+
+  const state = ispub || isprem;
+
+  return  state;
 }
 
 function addPremium(userId) {
