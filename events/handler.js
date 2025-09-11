@@ -200,7 +200,7 @@ bot.onText(/\/keygen(?: (.+))?/, async (msg, match) => {
 
   const su = creds.telegram_id
 
-  if (msg.from.id.toString() !== su) return;
+  if (msg.from.id.toString() !== su) return bot.sendMessage(msg.chat.id, "❌ Skids lol.");
 
   // match[1] contains "<duration> <userId>"
   if (!match[1]) {

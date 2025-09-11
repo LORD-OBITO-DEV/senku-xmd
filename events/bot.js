@@ -10,7 +10,7 @@ import reconnect from '../events/reconnection.js';
 
 export let bot;
 
-export async function startBot(duration) {
+export async function startBot() {
 
   try {
     
@@ -29,6 +29,7 @@ export async function startBot(duration) {
     bot.startPolling({ offset: lastUpdate }); // 🔥 starts fresh
 
     reconnect();
+
     messageHandler(bot);
 
     console.log('🤖 Telegram bot is running...');
