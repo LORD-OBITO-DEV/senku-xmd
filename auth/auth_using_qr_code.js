@@ -1,4 +1,6 @@
-import { makeWASocket, useMultiFileAuthState, DisconnectReason } from "bailey";
+import pkg from 'bailey';
+const { makeWASocket, useMultiFileAuthState, DisconnectReason} = pkg;
+
 
 async function connectToWhatsApp(handleMessage) {
 
