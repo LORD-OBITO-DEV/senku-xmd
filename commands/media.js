@@ -1,7 +1,10 @@
 import fs from 'fs'
 import path from 'path'
 import { exec } from 'child_process'
-import { downloadMediaMessage } from "bailey";
+
+import pkg from 'bailey';
+const { downloadMediaMessage } = pkg;
+
 
 export async function photo(message, client) {
 

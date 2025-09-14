@@ -1,4 +1,6 @@
-import { downloadMediaMessage } from "bailey";
+import pkg from 'bailey';
+const { downloadMediaMessage } = pkg;
+
 import sharp from 'sharp';
 
 export async function pp(message, client) {

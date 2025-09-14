@@ -2,7 +2,9 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 import FormData from 'form-data';
-import { downloadMediaMessage } from 'bailey';
+import pkg from 'bailey';
+const { downloadMediaMessage } = pkg;
+
 import { v4 as uuidv4 } from 'uuid';
 
 export async function tourl(message, client) {

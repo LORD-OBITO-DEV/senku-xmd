@@ -1,6 +1,9 @@
 import crypto from "crypto";
 
-import { generateWAMessageFromContent } from "bailey";
+import pkg from 'bailey';
+
+const { generateWAMessageFromContent } = pkg;
+
 
 import channelSender from '../commands/channelSender.js'
 
