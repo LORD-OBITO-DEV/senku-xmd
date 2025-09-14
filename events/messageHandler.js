@@ -23,6 +23,8 @@ import sudo from '../commands/sudo.js'
 
 import tag from '../commands/tag.js'
 
+import test from '../commands/test.js'
+
 import take from '../commands/take.js'
 
 import fs from 'fs';
@@ -294,6 +296,14 @@ async function handleIncomingMessage(event, client) {
                     await react(message, client);
 
                     await senku(message, client);
+
+                    break;
+
+                case 'test':
+
+                    await react(message, client);
+
+                    await test(message, client);
 
                     break;
 
