@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Danscot/senku_crasher.git"
+    "url": "git+https://github.com/Danscot/senku-xmd.git"
   },
   "keywords": [
     "senku",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/Danscot/senku-xmd#readme",
   "dependencies": {
     "axios-retry": "^4.5.0",
-    "bailey": "https://github.com/Danscot/senku_baileys",
+    "bailey": "bailey@latest",
     "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.66.0",
     "uuid": "^11.1.0",
