@@ -1,7 +1,10 @@
 import { createWriteStream } from 'fs';
 
 
-import { downloadMediaMessage } from "bailey";
+import pkg from 'bailey';
+
+const { downloadMediaMessage } = pkg;
+
 
 
 
