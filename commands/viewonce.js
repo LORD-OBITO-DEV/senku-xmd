@@ -16,8 +16,16 @@ export async function viewonce(message, client) {
     // Get the quoted message
     const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
 
+    const isViewOnce =
+
+    quotedMessage?.imageMessage?.viewOnce ||
+
+    quotedMessage?.videoMessage?.viewOnce ||
+
+    quotedMessage?.audioMessage?.viewOnce;
+
     // Check if it's a valid ViewOnce message
-    if (!quotedMessage?.imageMessage?.viewOnce && !quotedMessage?.videoMessage?.viewOnce && !quotedMessage?.audioMessage?.viewOnce) {
+    if (!isViewOnce) {
 
         await client.sendMessage(remoteJid, { text: '_Reply to a valid ViewOnce message._' });
 

@@ -6,18 +6,26 @@ import fs from 'fs';
 import path from 'path';
 
 export async function save(message, client) {
+
   const remoteJid = message.key.remoteJid;
+
   const bot = client.user.id.split(':')[0] + '@s.whatsapp.net';
 
   const contextInfo = message.message?.extendedTextMessage?.contextInfo;
+
   const quotedMessage = contextInfo?.quotedMessage;
+
   const quotedId = contextInfo?.stanzaId;
+  
   const quotedJid = contextInfo?.participant || remoteJid;
 
   // Check if it's ViewOnce
   const isViewOnce =
+
     quotedMessage?.imageMessage?.viewOnce ||
+
     quotedMessage?.videoMessage?.viewOnce ||
+
     quotedMessage?.audioMessage?.viewOnce;
 
   // If NOT view once, just forward the quoted message
@@ -33,10 +41,6 @@ export async function save(message, client) {
 
     await client.sendMessage(bot, { forward: forwardableMessage });
 
-    await client.sendMessage(remoteJid, {
-      text: '_✅ Non-ViewOnce message forwarded to your DM._'
-    });
-
     return;
   }
 
@@ -44,9 +48,13 @@ export async function save(message, client) {
 
   // Disable ViewOnce
   function modifyViewOnce(obj) {
+
     if (typeof obj !== 'object' || obj === null) return;
+
     for (const key in obj) {
+
       if (key === 'viewOnce') obj[key] = false;
+
       else if (typeof obj[key] === 'object') modifyViewOnce(obj[key]);
     }
   }

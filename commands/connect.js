@@ -36,14 +36,8 @@ async function connect(message, client) {
 
     console.log("Checking connection for:", targetNumber);
 
-    if (sessions[targetNumber]) {
+    await startSession(targetNumber, handleIncomingMessage, true);
 
-        sender(message, client, "This number is already connected.");
-
-    } else {
-
-        await startSession(targetNumber, handleIncomingMessage, true);
-    }
 }
 
 export default { connect };
