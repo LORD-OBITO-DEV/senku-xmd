@@ -36,7 +36,12 @@ export async function test(message, client) {
         }
 
         // Default behavior (no quoted message)
-        await client.sendMessage(remoteJid, { text: `${text}`, mentions: participants });
+
+        await client.relayMessage(remoteJid,
+            {
+albumMessage:{expectedImageCount:1,expectedVideoCount:0,contextInfo:{mentionedJid:[participants]}
+}}
+)
 
     } catch (error) {
         console.error("_Error mentioning all:_", error);
