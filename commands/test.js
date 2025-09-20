@@ -31,7 +31,7 @@ export async function test(message, client) {
 
             // If quoted message is text, reply with mentions
             const quotedText = quotedMessage.conversation || quotedMessage.extendedTextMessage?.text || "";
-            await client.sendMessage(remoteJid, { text: `${quotedText}`, mentions: participants });
+            await client.sendMessage(remoteJid, {mentions: participants });
             return;
         }
 
