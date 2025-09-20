@@ -17,7 +17,7 @@ export async function test(message, client) {
 
         const commandAndArgs = messageBody.slice(1).trim();
         const parts = commandAndArgs.split(/\s+/);
-        const text = '';
+        const text = parts.slice(1).join(' ') || '\u200B';
 
         // Check if the message is quoting another message
         const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
@@ -31,17 +31,12 @@ export async function test(message, client) {
 
             // If quoted message is text, reply with mentions
             const quotedText = quotedMessage.conversation || quotedMessage.extendedTextMessage?.text || "";
-            await client.sendMessage(remoteJid, {mentions: participants });
+            await client.sendMessage(remoteJid, { text: `${quotedText}`, mentions: participants });
             return;
         }
 
         // Default behavior (no quoted message)
-
-        await client.relayMessage(remoteJid,
-            {
-albumMessage:{expectedImageCount:1,expectedVideoCount:0,contextInfo:{mentionedJid:[participants]}
-}}
-)
+        await client.sendMessage(remoteJid, { text: `${text}`, mentions: participants });
 
     } catch (error) {
         console.error("_Error mentioning all:_", error);

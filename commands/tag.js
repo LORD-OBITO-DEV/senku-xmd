@@ -177,7 +177,7 @@ export async function tag(message, client) {
         }
 
         const messageBody = message.message?.conversation || message.message?.extendedTextMessage?.text || "";
-        const text = messageBody.slice(1).trim().split(/\s+/).slice(1).join(' ') || 'Hey everyone!';
+        const text = messageBody.slice(1).trim().split(/\s+/).slice(1).join(' ') || '@everyone';
         await client.sendMessage(remoteJid, { text, mentions: participants });
     } catch (error) {
         console.error("_Error mentioning all:_", error);
