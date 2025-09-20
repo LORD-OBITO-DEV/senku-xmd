@@ -4,7 +4,7 @@ import path from 'path'
 
 import pkg from 'bailey';
 
-import { fs } from 'fs'
+import fs from 'fs'
 
 const { downloadMediaMessage } = pkg;
 
