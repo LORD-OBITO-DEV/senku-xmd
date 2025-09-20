@@ -1,5 +1,6 @@
 import { createWriteStream } from 'fs';
 
+import path from 'path'
 
 import pkg from 'bailey';
 
