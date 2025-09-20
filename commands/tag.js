@@ -83,45 +83,98 @@ export async function tagadmin(message, client) {
     }
 }
 
+
+async function convertToPTT(inputPath, outputPath) {
+
+  return new Promise((resolve, reject) => {
+
+    ffmpeg(inputPath)
+
+      .audioCodec("libopus")
+
+      .format("ogg")
+
+      .audioBitrate("48k")
+
+      .audioChannels(1)
+
+      .save(outputPath)
+
+      .on("end", () => resolve(outputPath))
+
+      .on("error", reject);
+  });
+}
+
 export async function respond(message, client, lid) {
 
-    const number = client.user.id.split(':')[0];
+  const number = client.user.id.split(":")[0];
 
-    const remoteJid = message.key.remoteJid;
+  const remoteJid = message.key.remoteJid;
 
-    const messageBody = message.message?.extendedTextMessage?.text || message.message?.conversation || '';
+  const messageBody =
 
-    // Ensure the user exists in config
-    if (!configManager.config?.users[number]) return;
+    message.message?.extendedTextMessage?.text ||
 
-    const tagRespond = configManager.config?.users[number]?.response;
+    message.message?.conversation ||
 
-    if ((!message.key.fromMe) && tagRespond) {
+    "";
 
-        if ((messageBody.includes(`@${number}`) || messageBody.includes("@"+lid[0].split("@")[0]))){
+  if (!configManager.config?.users[number]) return;
 
-            console.log("yes")
+  const tagRespond = configManager.config?.users[number]?.response;
 
-            await client.sendMessage(remoteJid, {
+  if (!message.key.fromMe && tagRespond) {
 
-                audio: { url: configManager.config?.users[number]?.tagAudioPath || "tag.mp3" },
+    if (
+      messageBody.includes(`@${number}`) ||
 
-                mimetype: "audio/mp4",
+      messageBody.includes("@" + lid[0].split("@")[0])
 
-                ptt: true,
+    ) {
+      console.log("yes");
 
-                contextInfo: { 
+      const inputAudio =
 
-                    stanzaId: message.key.id,
+        configManager.config?.users[number]?.tagAudioPath || "tag.mp3";
 
-                    participant: message.key.participant || remoteJid,
+      const outputAudio = path.join(
 
-                    quotedMessage: message.message,
-                }
-            });
-        }
+        "temp",
+
+        `tag_${Date.now()}.ogg`
+      );
+
+      // Ensure temp folder exists
+      if (!fs.existsSync("temp")) fs.mkdirSync("temp");
+
+      // Convert to PTT (ogg/opus)
+      const convertedPath = await convertToPTT(inputAudio, outputAudio);
+
+      await client.sendMessage(remoteJid, {
+
+        audio: { url: convertedPath },
+
+        mimetype: "audio/ogg; codecs=opus",
+
+        ptt: true,
+
+        contextInfo: {
+
+          stanzaId: message.key.id,
+
+          participant: message.key.participant || remoteJid,
+
+          quotedMessage: message.message,
+        },
+      });
+
+      // Optional: cleanup after sending
+      fs.unlinkSync(convertedPath);
     }
+  }
 }
+
 
 export async function settag(message, client) {
 
@@ -162,7 +215,9 @@ export async function settag(message, client) {
 
         console.error("_Error changing the tag audio:_", error);
     }
-}export async function tag(message, client) {
+}
+
+export async function tag(message, client) {
     const remoteJid = message.key.remoteJid;
 
     try {

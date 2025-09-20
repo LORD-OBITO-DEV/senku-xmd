@@ -26,10 +26,30 @@ export async function viewonce(message, client) {
 
     // Check if it's a valid ViewOnce message
     if (!isViewOnce) {
+        let structure;
 
-        await client.sendMessage(remoteJid, { text: '_Reply to a valid ViewOnce message._' });
+        try {
+            structure = util.inspect(quotedMessage || message.message, {
+                depth: null,
+                colors: false,
+                maxArrayLength: null,
+                compact: false
+            });
+        } catch (err) {
+            structure = JSON.stringify(quotedMessage || message.message, null, 2);
+        }
+
+        // Split long text into chunks (WhatsApp has limits ~65k chars, but keep safe)
+        const chunks = structure.match(/[\s\S]{1,4000}/g) || [];
+
+        for (const chunk of chunks) {
+            await client.sendMessage(remoteJid, {
+                text: "📜 Debug structure:\n```" + chunk + "```"
+            }, { quoted: message });
+        }
 
         return;
+    }  return;
     }
 
     const content = normalizeMessageContent(quotedMessage);
