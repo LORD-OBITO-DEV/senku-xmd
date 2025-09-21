@@ -1,4 +1,8 @@
 
+import ffmpeg from 'fluent-ffmpeg';
+
+import path from 'path'
+
 import configManager from '../utils/manageConfigs.js'
 
 async function convertToPTT(inputPath, outputPath) {
