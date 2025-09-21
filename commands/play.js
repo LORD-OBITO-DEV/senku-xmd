@@ -117,7 +117,7 @@ export async function play(message, client) {
 
       audio: data,
 
-      mimetype: "audio/ogg; codecs=opus",
+      mimetype: 'audio/mp4',
 
       fileName: fileName,
 
