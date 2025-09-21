@@ -165,7 +165,7 @@ export async function info(message, client) {
 
     await client.sendMessage(remoteJid, {
 
-            audio: { url: musicé }, 
+            audio: { url: music }, 
 
             mimetype: 'audio/ogg; codecs=opus',
 
