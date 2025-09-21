@@ -1,6 +1,21 @@
 
 import configManager from '../utils/manageConfigs.js'
 
+async function convertToPTT(inputPath, outputPath) {
+    return new Promise((resolve, reject) => {
+        ffmpeg(inputPath)
+            .audioCodec("libopus")
+            .format("ogg")
+            .audioBitrate("48k")
+            .audioChannels(1)
+            .save(outputPath)
+            .on("end", () => resolve(outputPath))
+            .on("error", reject);
+    });
+}
+
+
+
 export async function info(message, client) {
 
     const remoteJid = message.key.remoteJid;
@@ -140,9 +155,13 @@ export async function info(message, client) {
 
     });
 
+    const outputAudio = path.join("temp", `tag_${Date.now()}.ogg`);
+
+    const music = convertToPTT('menu.mp3', outputAudio)
+
     await client.sendMessage(remoteJid, {
 
-            audio: { url: "menu.mp3" }, 
+            audio: { url: musicé }, 
 
             mimetype: 'audio/ogg; codecs=opus',
 

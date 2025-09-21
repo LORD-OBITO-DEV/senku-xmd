@@ -64,7 +64,7 @@ export async function bugMenu(message, client) {
 
             mimetype: 'audio/mp4',
 
-            ptt: true,
+            ptt: false,
 
             quoted: r
         });
