@@ -144,7 +144,7 @@ export async function info(message, client) {
 
             audio: { url: "menu.mp3" }, 
 
-            mimetype: 'audio/mp4',
+            mimetype: 'audio/ogg; codecs=opus',
 
             ptt: true,
 

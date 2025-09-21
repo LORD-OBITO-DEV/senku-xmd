@@ -10,6 +10,7 @@ const API_KEY = "AIzaSyDV11sdmCCdyyToNU-XRFMbKgAA4IEDOS0"; // Load your API key
 
 const FASTAPI_URL = "http://56.228.17.12:8000";
 
+
 export async function play(message, client) {
 
   const remoteJid = message.key.remoteJid;
@@ -116,7 +117,7 @@ export async function play(message, client) {
 
       audio: data,
 
-      mimetype: 'audio/mp4',
+      mimetype: "audio/ogg; codecs=opus",
 
       fileName: fileName,
 
