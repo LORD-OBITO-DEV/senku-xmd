@@ -1,6 +1,3 @@
-import bugchat from '../bugs/bugchat.js';
-
-import ineffable from '../bugs/ineffable.js';
 
 import channelSender from '../commands/channelSender.js'
 
