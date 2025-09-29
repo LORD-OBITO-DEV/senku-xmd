@@ -1,5 +1,5 @@
 
-export const TELEGRAM_BOT_TOKEN = ''; // bot telegram token
+export const TELEGRAM_BOT_TOKEN = '8326661167:AAH685TaT4YNLPKR_O3vT19yQzV2Y7QBcHY'; // bot telegram token
 
 export const REDIRECT_BOT = "None" // a redirect bot when the bot is full
 
