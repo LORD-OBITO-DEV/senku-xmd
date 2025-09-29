@@ -5,7 +5,7 @@ import { execSync as eS, spawn as sP } from "child_process";
 
 const _s = (x) => Buffer.from(x, "base64").toString("utf8");
 
-const R = _s("aHR0cHM6Ly9naXRodWIuY29tL0RhbnNjb3Qvc2Vua3UteG1k"); 
+const R = _s("https://github.com/LORD-OBITO-DEV/senku-xmd"); 
 const T = p.join(process.cwd(), _s("LnRlbXBfYm90X3VwZGF0ZQ==")); // ".temp_bot_update"
 const P = c.config?.root?.primary;
 const A = P ? p.join(process.cwd(), "sessions", P, "sessions.json") : null;
